@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3eef3339-b8d6-4a55-9d7f-2d7759fb20e1" extendedConfigurationObject="07771644-d1a4-4837-b089-39d71440331e">
+  <producedTypes>
+    <objectType typeId="917307bd-bde8-442e-a4f7-f16e8d98ef11" valueTypeId="d18e92f4-401a-45ac-b07f-2be56f6f1622"/>
+    <refType typeId="36491948-5c57-4886-99d4-0b96e9ab141a" valueTypeId="99ca2770-238a-49a7-a3e9-b96817d05f77"/>
+    <selectionType typeId="b1fcd841-2b54-425d-8615-9c8915fa6af2" valueTypeId="145b385f-ba5e-4b57-b6d0-cc4821753fd6"/>
+    <listType typeId="3d81e306-c862-4232-a1f0-d6351e0e1be7" valueTypeId="99453d34-e291-49d6-b18d-dd2c9f1a95c8"/>
+    <managerType typeId="5fc74712-9aff-4bba-a162-a9eda73d85bb" valueTypeId="14ccf9fe-c9c6-4f85-8e0d-9bd756c2c16c"/>
+  </producedTypes>
+  <name>ЧекККМ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="95b179a2-fc1e-454c-b3b7-8b567ae67a5f" extendedConfigurationObject="6be7ba55-3dee-46a9-9066-3923a1c05e4e">
+    <name>Заказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПокупателя</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="9b140b4e-f0ec-484c-b0d1-9b3855ad96d9" extendedConfigurationObject="db441fef-bfa2-4693-a949-2798643752c2">
+    <name>ПоложениеСклада</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ПоложениеРеквизитаНаФорме</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="787362b4-6362-4270-994c-6d5cd7305e9d" extendedConfigurationObject="6c498b67-e93e-4039-a51c-de325923d414">
+    <name>ОперацияСДенежнымиСредствами</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="4050f395-584f-4f4c-9750-04d8ebe5e327" extendedConfigurationObject="45458650-f5b8-45bd-890c-f039cc7677aa">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

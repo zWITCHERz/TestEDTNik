@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="df2b938c-ed86-4dd9-bcad-5ba2ff3a6d1f" extendedConfigurationObject="3bb7f1d8-6b11-4f7d-a455-f5316dded2a9">
+  <producedTypes>
+    <refType typeId="58da35b8-6cd9-4773-8677-cac1d354d7e9" valueTypeId="8491bfbb-1299-4c1e-a40f-e12e4cd4ee70"/>
+    <listType typeId="4539b228-0d4f-42da-8c3f-b2a6af82e728" valueTypeId="ef66ec6d-b115-4bcf-bac7-ed9ba3a36596"/>
+    <managerType typeId="58ef391c-cfa9-4050-ad81-519c470d8df7" valueTypeId="209e4048-512d-4ec2-b568-687584832db4"/>
+  </producedTypes>
+  <name>СпособыУстановкиДатыДляМагазинаСоцСетей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="65cd8b68-3195-4bcf-8609-906f7901629f" extendedConfigurationObject="845aba68-5204-46c5-88da-76756211e429">
+    <name>ТекущаяДата</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="fce5e09c-92bd-4630-8003-7163333f2ae7" extendedConfigurationObject="959a7b9c-b8ec-4b73-aad0-0afccf8aac02">
+    <name>ПоДатеОбъекта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

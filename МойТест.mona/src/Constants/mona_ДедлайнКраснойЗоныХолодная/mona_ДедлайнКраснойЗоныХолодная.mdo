@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef8dc9bb-20da-4fbc-8467-c1e13ed04dac">
+  <producedTypes>
+    <managerType typeId="4126ff7e-f824-4334-a127-454c861235b5" valueTypeId="3d7d818f-f14b-4986-a93e-4dbe3127eead"/>
+    <valueManagerType typeId="5e4ab07b-f67e-4bfc-859e-5376e3032a41" valueTypeId="81f09adf-73f6-4fa8-91ff-878db7f57627"/>
+    <valueKeyType typeId="da12b9bc-e54b-4260-b6d3-68cb8ae7f863" valueTypeId="2906d621-0eb5-4f90-81ea-6a61702d5e7c"/>
+  </producedTypes>
+  <name>mona_ДедлайнКраснойЗоныХолодная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дедлайн красной зоны холодная</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b981b976-323a-46e2-9437-00e8c889d7ff">
+  <producedTypes>
+    <refType typeId="69edc435-984d-46d4-8d2e-ae609e9b43e1" valueTypeId="2ce41f64-ff0d-4f96-b8c4-a56bbc240b6c"/>
+    <listType typeId="64051d2a-648c-4af0-afbb-618cae644622" valueTypeId="1043edeb-cd95-4726-8920-c372ce3aa0f2"/>
+    <managerType typeId="ebd133dd-f7f9-4769-8eef-c833fa246d80" valueTypeId="b85b2511-05f8-4a4c-8d52-26fcb3989423"/>
+  </producedTypes>
+  <name>mona_ВидыПредупреждений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Части заказа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bbdded19-6333-4fbe-8313-536b40495596">
+    <name>ЖелтыйДедлайн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Желтый дедлайн</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4dd9047-1fe7-4176-ac1f-7a861d429f35">
+    <name>КрасныйДедлайн</name>
+    <synonym>
+      <key>ru</key>
+      <value>Красный дедлайн</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d518246-ce39-4024-aa3d-16d4661316a9">
+    <name>SLA</name>
+    <synonym>
+      <key>ru</key>
+      <value>SLA</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="048e0afc-ef0f-4415-9112-0dfa8d2424eb">
+    <name>ЧастичнаяСборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частичная сборка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="18b58427-76ed-4915-aea3-fcb81fdf5d45">
+    <name>Другое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

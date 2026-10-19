@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df099503-6488-4a23-8c15-e05986b23f9c">
+  <name>mona_mona_SLAЧастичнойСборки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mona mona SLAЧастичной сборки</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1517bae1-81bd-48d1-a125-14ce3ae52aac" extendedConfigurationObject="060b2bb4-ca03-4da9-930f-7f91f6299a35">
+  <producedTypes>
+    <selectionType typeId="79df8bc3-96bb-49e3-8408-4e71cb922532" valueTypeId="3798c58d-f21c-4a0d-a090-29954aca8973"/>
+    <listType typeId="684259c9-1a59-48fd-96d3-7dec0b209c94" valueTypeId="4ecb9feb-f6c4-40af-ac30-5cd47d436415"/>
+    <managerType typeId="b29aa7a1-322a-40a4-91fc-0737a621a0ac" valueTypeId="57455ee0-fdff-4655-b7d5-19f6579e05d0"/>
+    <recordSetType typeId="eabe1253-a6a7-445c-9708-f69bd72cd1fb" valueTypeId="0989f1aa-a1c5-439c-8cdb-1097bf990af3"/>
+    <recordKeyType typeId="4ad07b7a-7094-4cc2-b5c0-4f400f0ef1c9" valueTypeId="7229088b-f692-48a5-9a6f-8d99248ce890"/>
+    <recordType typeId="9cb4eec1-9650-43b1-9acf-afa4d18523c5" valueTypeId="45cb37ba-3b8b-4852-913f-661e1e37511f"/>
+    <recordManagerType typeId="e37326c0-1df7-4a6f-a4d8-1d9eea4d1728" valueTypeId="14665b85-b3b0-4538-9c4b-bed593c89df6"/>
+  </producedTypes>
+  <name>НаличиеФайлов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="4c18d802-d3e6-4e09-a526-c53c338b359e" extendedConfigurationObject="394b1a1c-a7ae-41b7-a346-4bac99fa567d">
+    <name>ЕстьФайлы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="6106aee4-5c08-4e84-8141-5442f9649b35" extendedConfigurationObject="ccfe4e36-80b6-419f-8bb3-c1046203d023">
+    <name>ОбъектСФайлами</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ВладелецПрисоединенныхФайлов</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

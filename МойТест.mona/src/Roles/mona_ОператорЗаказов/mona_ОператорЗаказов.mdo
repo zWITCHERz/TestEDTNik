@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df3fc2e7-c6ca-401f-a08e-5753ce974aa2">
+  <name>mona_ОператорЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оператор заказов</value>
+  </synonym>
+</mdclass:Role>

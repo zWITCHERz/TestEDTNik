@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fafbd4fb-0bfd-485d-900f-00401abc9f88">
+  <name>mona_ЖурналОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mona журнал обмена</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

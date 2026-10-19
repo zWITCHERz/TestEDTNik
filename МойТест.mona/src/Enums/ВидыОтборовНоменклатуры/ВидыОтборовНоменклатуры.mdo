@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="76d814a7-c8b6-4c93-bdb1-fafd3f43536e" extendedConfigurationObject="d46a1508-b797-4a66-bb6f-11c8f68adb43">
+  <producedTypes>
+    <refType typeId="48193d77-1138-4735-8cbc-a9de27d21f87" valueTypeId="634b880c-f722-4108-a502-00b33cad8ba3"/>
+    <listType typeId="1446b2d2-bf02-499a-b6c0-c3823eb5e116" valueTypeId="9e9af55f-ec23-47f3-bf13-6ce755101a41"/>
+    <managerType typeId="18fdfa08-fe31-4045-823c-cbc8f14db772" valueTypeId="83c50586-c4c7-409c-bd42-75c6d4b3094c"/>
+  </producedTypes>
+  <name>ВидыОтборовНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="b33bc8a8-cdca-4332-9e9a-ea7f44beda31" extendedConfigurationObject="c313de73-3745-4edd-bf09-611d93e53e04">
+    <name>ГруппыНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="8fd60770-d9eb-43e9-936b-400fa1fe243f" extendedConfigurationObject="f39ba878-d4af-4cc3-a713-f5bedd333ccf">
+    <name>КатегорииНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

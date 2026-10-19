@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a3c9e42d-8c8e-416b-85fc-a04658349ca1" extendedConfigurationObject="410330dd-6b6c-48a5-8389-0eeba25ca9b1">
+  <producedTypes>
+    <objectType typeId="b5506b8b-8c04-4127-b10e-a419d85fbb31" valueTypeId="437bdcb4-6361-49bb-b9a6-3f044d010db1"/>
+    <refType typeId="aa1d38f5-a863-4727-a02f-1f817a836702" valueTypeId="e45b1074-54a5-42df-b3cd-be3e55aa39f8"/>
+    <selectionType typeId="b3691665-2f27-4f43-a0b6-b98000de0051" valueTypeId="9188dbf6-6a3f-4c9c-9298-e04984a17f0e"/>
+    <listType typeId="65497b63-b5c5-4c4e-b3c7-5b56a3c8b032" valueTypeId="93a2ed2f-4887-4333-a74f-ef509f80cac1"/>
+    <managerType typeId="a5aed8e0-3367-4614-b22d-28eaf0995c0e" valueTypeId="db094f82-67c4-4767-b797-f7b398d0011c"/>
+  </producedTypes>
+  <name>ПолитикаУчетаСерий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

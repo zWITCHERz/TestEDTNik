@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="95574d8b-d169-49da-a9e5-6a2fa463e26e" extendedConfigurationObject="f2f58e8e-ecea-4968-a2b8-5e36e3b12955">
+  <producedTypes>
+    <objectType typeId="b50fe5a2-c53a-4630-9030-1c6397ec9607" valueTypeId="6ea16d02-1a34-49f9-8894-51ced2227c47"/>
+    <managerType typeId="95a2b642-5e7b-41b5-bad1-e4bca009fa53" valueTypeId="b8767421-5127-4076-809f-dd56d02228f7"/>
+  </producedTypes>
+  <name>Панель1СWebKassa</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="3c23b7a2-9e43-4609-9554-5105847de26c" extendedConfigurationObject="b913e852-d828-44fd-ad60-dee0e0c81178">
+    <name>АутентификацияПользователя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

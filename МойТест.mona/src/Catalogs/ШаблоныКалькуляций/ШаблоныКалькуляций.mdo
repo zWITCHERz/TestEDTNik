@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="05094952-e1a4-4dec-a26b-eaabf7dd01e2" extendedConfigurationObject="e35a69a5-8a79-4986-b440-29772fc55bca">
+  <producedTypes>
+    <objectType typeId="a4d97148-4ce1-4fa2-8deb-a100c524b44b" valueTypeId="f28b5a5b-3080-423c-a45c-0a48e968e14f"/>
+    <refType typeId="cc67499c-d635-48e7-9ade-c9f2cfe8a685" valueTypeId="5150fc28-c1d9-4dc3-bc1d-ebe22b55c62b"/>
+    <selectionType typeId="f3c7f3d6-9d4c-402d-badf-c21e28bc105f" valueTypeId="f307d580-f923-413f-8dee-39b361a79180"/>
+    <listType typeId="f33b962c-174f-4376-9a5d-066ec90ff1cc" valueTypeId="548f5600-8de1-444c-ab84-dd86536eef3b"/>
+    <managerType typeId="a122e688-8ba4-4000-985d-ffd40c5114f3" valueTypeId="d55a79e9-0829-4514-9eb4-16066caa6831"/>
+  </producedTypes>
+  <name>ШаблоныКалькуляций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

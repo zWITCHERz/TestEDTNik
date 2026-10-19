@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f314eb56-b2f3-42a3-a3e2-e5c1a7da05ee" extendedConfigurationObject="3b0c4744-6437-4ccc-bc96-9dd9bae7a7ae">
+  <producedTypes>
+    <objectType typeId="b4d3d388-4307-4a58-b77f-274a3e942c5b" valueTypeId="56af3910-761c-44d3-aabf-bee7b3e05bd9"/>
+    <refType typeId="f1dbbc07-a6e8-45db-805c-5e956161132a" valueTypeId="3625aaf0-4383-4828-80e9-c691ef1183a9"/>
+    <selectionType typeId="91e6ed05-cf18-4aa0-9712-6563e20a9359" valueTypeId="660132eb-fd87-442f-8227-fde47038c661"/>
+    <listType typeId="fb7e1bbb-dacf-4fc7-b0a0-24f69afdd92d" valueTypeId="267cb29c-f22c-45b3-90bc-71caafe96717"/>
+    <managerType typeId="90c42a32-3510-4dc4-8249-cf08778f84b9" valueTypeId="37053bdc-f9e6-47c4-90cf-98ec528bbaab"/>
+    <extDimensionTypes typeId="5514d609-bd3a-4706-91d5-0251905088b0" valueTypeId="5604370d-78f0-49f1-84b9-ca4a1e9048fb"/>
+    <extDimensionTypesRow typeId="e30134e2-8c43-42da-8841-4f66f0e6b4de" valueTypeId="d75a1d3a-b9e1-432f-840f-37cfda7fd18d"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfAccountsExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <descriptionLength>Checked</descriptionLength>
+    <predefined>Extended</predefined>
+    <orderLength>Checked</orderLength>
+  </extension>
+  <codeLength>4</codeLength>
+  <descriptionLength>120</descriptionLength>
+  <predefined>
+    <items id="2d10d248-7c26-4680-85db-b0319907d034">
+      <name>ПрочиеРасходы</name>
+      <description>Прочие расходы</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code>7400</code>
+      <order>7400</order>
+    </items>
+  </predefined>
+  <orderLength>4</orderLength>
+</mdclass:ChartOfAccounts>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="243d0da3-7e73-4596-8cbc-6ff7f47da9e4">
+  <producedTypes>
+    <managerType typeId="b250ce6e-587c-4129-baf5-10019183fa77" valueTypeId="d09455c3-5e8d-4db9-be98-21bfe9bf83de"/>
+    <valueManagerType typeId="c02352cd-362f-413c-a55f-9534b838c864" valueTypeId="bc1d1df1-45b3-4e44-ae64-90932fb39ba4"/>
+    <valueKeyType typeId="b2aa8b1e-4377-4564-a36e-7288c42af606" valueTypeId="62ac13ea-dbdd-4d0a-89d5-6ad715f26ced"/>
+  </producedTypes>
+  <name>mona_ОкноЖёлтойЗоныХолодная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Окно жёлтой зоны холодная</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

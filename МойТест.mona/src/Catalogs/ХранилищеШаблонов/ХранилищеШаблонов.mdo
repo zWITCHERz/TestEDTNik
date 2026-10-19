@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2ce64513-bb1a-4bb7-bdae-59e9a799b492" extendedConfigurationObject="85a1ca82-bc4b-49a8-84e1-77c8158aaf47">
+  <producedTypes>
+    <objectType typeId="b91813e4-bf92-4a87-b3da-3ea8f74e9a8a" valueTypeId="3c0a191c-a9d2-40ea-af9d-ac18304e1b1f"/>
+    <refType typeId="c3bf1638-39be-41c0-8591-65260946098a" valueTypeId="d5a884f0-8913-4b05-adfe-ef21be8587f6"/>
+    <selectionType typeId="9c6650d4-90c0-4ffa-a6b4-de1ffb68e958" valueTypeId="29f14538-6504-45fc-b7d3-aed973356101"/>
+    <listType typeId="3d33fd97-2fdd-41a3-a15c-a9ae0179db50" valueTypeId="dc6a6ddd-61c9-4862-9b58-09ce1d5179fe"/>
+    <managerType typeId="64fe1873-5d7f-4ad7-a04d-845d2e30bc92" valueTypeId="54f7f9d2-4f23-4ad4-9faf-ddb4e66300e8"/>
+  </producedTypes>
+  <name>ХранилищеШаблонов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

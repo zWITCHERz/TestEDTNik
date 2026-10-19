@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e2d06092-3ad8-4c02-b794-c36d60479f90" extendedConfigurationObject="49cc9596-f135-4197-a883-1def26896cbf">
+  <producedTypes>
+    <objectType typeId="1b6cafb7-d074-4628-958a-7b96484eae3b" valueTypeId="62e51ba2-90e4-4965-8c5b-c63a0c1b62d3"/>
+    <refType typeId="626fb37d-4a0b-48ee-9ab2-c9f648adaf60" valueTypeId="5469c4bb-8bec-455b-b5ec-7e60d2fdf197"/>
+    <selectionType typeId="9ecd4b2a-4b3a-4323-a016-3cd18340fa46" valueTypeId="ca8e5927-793c-4c7e-999f-421d80d70a27"/>
+    <listType typeId="11759849-40a0-467b-acb3-23d1d4554e8c" valueTypeId="c02b3639-9ea0-4e4a-bb85-1cc6d8f1e133"/>
+    <managerType typeId="ccf6066c-3872-4f16-966c-b2192e6a2e79" valueTypeId="76bbbbd9-57f1-4749-b764-ee89a5e003c4"/>
+  </producedTypes>
+  <name>СпособыОплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="0b621453-28cb-47d4-b3fe-6fef4982216d" extendedConfigurationObject="cb287735-83cc-413a-855f-401cef2799c9">
+    <name>Касса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

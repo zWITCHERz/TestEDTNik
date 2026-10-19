@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c4488d6-44b9-4435-9e33-e3822b6ae352">
+  <producedTypes>
+    <objectType typeId="e96d8565-b94f-4ab3-a7b3-1c303bf7edbe" valueTypeId="f294af69-6742-41c7-90bc-f1314985b88b"/>
+    <managerType typeId="390a90d6-601f-4997-aeff-7247612d94bf" valueTypeId="49f8aadd-6f22-4d63-a23f-388fc78631ec"/>
+  </producedTypes>
+  <name>mona_ЗаказыСНулевымОстаткомНоменклатурыНаСкладе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы с нулевым остатком номенклатуры на складе</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.mona_ЗаказыСНулевымОстаткомНоменклатурыНаСкладе.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="22591241-1348-4fda-a040-af17c6f0543c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

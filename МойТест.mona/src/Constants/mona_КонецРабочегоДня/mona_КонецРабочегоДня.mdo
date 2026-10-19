@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a3ed99e-e74d-4afc-91ea-7511c6c3f971">
+  <producedTypes>
+    <managerType typeId="711324fc-bdd2-438e-80d3-c2e37f3af9b3" valueTypeId="320118ff-a0ac-40b8-acd7-efc0d12b22d8"/>
+    <valueManagerType typeId="1cb0edf3-9e35-419a-a0ea-3991c808fb48" valueTypeId="9eda79ea-ff1d-4917-a898-1219274e1424"/>
+    <valueKeyType typeId="54d7641e-4159-4265-8b63-44d495fdd92f" valueTypeId="792020ce-639d-4a0d-ba56-fcc291f1ff74"/>
+  </producedTypes>
+  <name>mona_КонецРабочегоДня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конец рабочего дня</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Time</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8289717a-d16e-4a2d-bd63-33efe2f5503d">
+  <producedTypes>
+    <refType typeId="b351d3de-1639-48c5-b86f-196f9f10a1c6" valueTypeId="6324d9b1-f0f6-4b4a-b14c-72581e0132d1"/>
+    <listType typeId="4d523d5f-50a0-49a1-b389-3474ebb4cc5d" valueTypeId="2707ddd8-fd89-47b4-8cc0-99e957d2fe4d"/>
+    <managerType typeId="8540fbef-a7b8-4d7e-b1a0-24385d526830" valueTypeId="df4f17e0-1c5e-48c3-a1eb-b511d7c87ec8"/>
+  </producedTypes>
+  <name>mona_Инициатор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mona инициатор</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="25865bce-eb61-4412-9af0-04fba7f1a77e">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2165a4e0-a3cf-431e-bc75-f616131819de">
+    <name>Оператор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оператор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d992450a-c72d-4b38-be99-e782f27ada37">
+    <name>АвтоматическийПроцесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматический процесс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ea9019d-bdd2-4c3d-ad97-322058a64d91">
+    <name>ПлановыйОбмен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановый обмен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

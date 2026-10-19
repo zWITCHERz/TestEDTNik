@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba90f255-1cb0-4a70-8c6e-ebbd7cea7d9d">
+  <producedTypes>
+    <objectType typeId="ce12f18c-a356-4c4d-a0f2-cb88beacbe58" valueTypeId="c57159dd-860a-4fe4-ad0f-48b8f84f3e86"/>
+    <refType typeId="27cfe03c-c7e7-4d6b-a883-ac124fe062a1" valueTypeId="ee83baf7-3086-4245-924d-eddf45877a4c"/>
+    <selectionType typeId="cc781a46-3a0a-4b8a-be2b-65994851d470" valueTypeId="c29c7b9e-6909-48d7-81b1-1bc564614f06"/>
+    <listType typeId="27ab9e7f-aca7-4871-b74c-d85525a530dd" valueTypeId="7c73d7b7-97b6-41cf-a1a5-cf29ac3b3b51"/>
+    <managerType typeId="2560bf01-8a5d-40dd-8f68-3b67d10441d8" valueTypeId="28a457a2-662f-44e1-9329-4b4e9205aed0"/>
+  </producedTypes>
+  <name>mona_Бренд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бренд</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.mona_Бренд.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.mona_Бренд.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

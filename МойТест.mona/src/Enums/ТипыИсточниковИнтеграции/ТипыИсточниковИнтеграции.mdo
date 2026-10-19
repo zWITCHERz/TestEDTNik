@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e91b9e94-c146-4d2c-a920-21580b460ff9" extendedConfigurationObject="15de2dd1-25f8-4c8e-95d8-efcddb697627">
+  <producedTypes>
+    <refType typeId="9bbc7f43-e29d-4caa-b36d-463b1cc2cf88" valueTypeId="4dd0ed52-eebd-49eb-85a5-e60a3f7c20d0"/>
+    <listType typeId="60dcfa45-7c71-4d56-b171-bebd0629b896" valueTypeId="47c5c275-0684-422c-80db-90b1ca196c30"/>
+    <managerType typeId="1c2b7c4d-290a-41e7-b50d-1bfbb0e78248" valueTypeId="24cca8d1-d2f3-448f-a7d1-8c5286e1538d"/>
+  </producedTypes>
+  <name>ТипыИсточниковИнтеграции</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="3bdac00c-9cc0-4cc4-b912-5f27e26052b8" extendedConfigurationObject="d432c4a7-c416-45cc-a35b-efd9a4e17086">
+    <name>Сайт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="cf87334d-ae51-431e-891a-4b72a55a93b4">
+    <name>mona_МобильноеПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mona мобильное приложение</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <synonym>Extended</synonym>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

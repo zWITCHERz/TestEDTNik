@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d709d562-58ce-4640-9dd1-71ac0e01fb5c" extendedConfigurationObject="1ca02cd8-cf2d-4e78-815b-1efef668a813">
+  <producedTypes>
+    <selectionType typeId="cdcd5226-2713-4ab8-9b0d-99e0d1902b8b" valueTypeId="7719f1f9-dd37-4fae-bcb7-373bb47b0149"/>
+    <listType typeId="fcc0c541-7983-4f77-a5f8-e1d0d9821792" valueTypeId="41ec65b0-a5d1-4cc5-b306-73786ad64e97"/>
+    <managerType typeId="aa8653a1-5db2-45b4-896d-50990fa640b0" valueTypeId="72e73b6f-86aa-404b-89f5-4b6aa2c49693"/>
+    <recordSetType typeId="c530daef-280c-4a23-ae81-1aab389b6384" valueTypeId="eb9ca11e-1deb-4102-8789-4b403f07c752"/>
+    <recordKeyType typeId="fdc6b688-1cd9-4ba6-bd05-ce93ea4e5e75" valueTypeId="ac874f3a-52ab-4c12-8f81-a7043f8f81a0"/>
+    <recordType typeId="9eb2b678-2187-43e2-8054-73d5ef0155d3" valueTypeId="7ca0314b-4c4a-4e3f-a70e-4d211b95b683"/>
+    <recordManagerType typeId="cd90eba2-a5a4-437d-a016-8356f75f1bd2" valueTypeId="22dce60a-7ba7-41d7-a653-8994fd27db11"/>
+  </producedTypes>
+  <name>ЗаказыПокупателейССайта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="357d67d1-5e04-4a04-a564-661fdc212374" extendedConfigurationObject="f7ee6da4-008c-4b72-b828-61666509c9cd">
+    <name>НомерЗаказаНаСайте</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="8e0ab576-048c-4073-abf8-3b3253847628" extendedConfigurationObject="fb5e1765-5eab-4144-95d3-ca843bc53cd9">
+    <name>ДатаЗаказаНаСайте</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="a7cbfbc6-c5d1-4eb2-a4be-9b026740765c" extendedConfigurationObject="aecc8be4-ffe5-4d40-be69-6153c696eb5d">
+    <name>ЗаказПокупателя</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DocumentRef.ЗаказПокупателя</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

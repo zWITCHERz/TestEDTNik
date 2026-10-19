@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0c712c52-7a9c-45b3-a996-22113a30ab75" extendedConfigurationObject="90c54cdb-3887-427a-bb26-a00e68a7f036">
+  <producedTypes>
+    <objectType typeId="e4370bb1-43fe-4a88-81c3-da7b30c4ce8b" valueTypeId="da062167-a923-4703-b691-78a5e4471de3"/>
+    <refType typeId="bc03ea3f-d81c-4bdc-a505-2ab2285d6199" valueTypeId="2ef24345-0435-4cdf-b2a6-961cae579d03"/>
+    <selectionType typeId="aba4cd25-69da-4b30-9a90-9e5c00aa5638" valueTypeId="61921b26-fbd2-48cf-bdd9-4abef6f72ad5"/>
+    <listType typeId="9b305fc4-0ff8-4de8-a28a-fcb29fcaedc7" valueTypeId="d1b46fbb-fe65-4abb-b478-25a93098eed5"/>
+    <managerType typeId="06c83333-4c94-4dca-8099-98e297b809ea" valueTypeId="b72ac82a-3536-4900-8961-5534a3a5a249"/>
+  </producedTypes>
+  <name>ВидыЗаказовПокупателей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="6ab3f61d-3537-4efe-af8f-4b657326af49" extendedConfigurationObject="be050f3b-0e0d-43ef-94ca-d8a87dfc04a2">
+    <name>СостояниеДоставлен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СостоянияЗаказовПокупателей</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="a3fce800-efaa-46ab-a9d8-44797fec9278" extendedConfigurationObject="7417c5bd-6073-4eb5-959a-04d39424a262">
+    <name>СостояниеОтгружен</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СостоянияЗаказовПокупателей</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="dd4cde4a-41fe-41ea-a3a2-e3b045c8963d" extendedConfigurationObject="1fd21f1a-255b-4268-8d41-8a24acbdd338">
+    <name>СостояниеОжидаетОтгрузки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СостоянияЗаказовПокупателей</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="6d02b9d4-4e43-4078-ae48-31ba6186d0ca" extendedConfigurationObject="b39e0734-7775-4ff2-bfd3-987276931e72">
+    <name>НеИспользоватьДоставку</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <tabularSections uuid="3fbc7687-e08c-4cce-b093-1165301fe11c" extendedConfigurationObject="75027b52-b2c4-4d7b-8ab8-8a5b1836ee32">
+    <producedTypes>
+      <objectType typeId="d1f06b31-7c30-4b56-9cf1-0ffe2937251c" valueTypeId="d04bb408-b0bd-4cff-95ec-54780f37fcb7"/>
+      <rowType typeId="772a9b5e-6826-4b4b-8bcb-2a98cb9d31e6" valueTypeId="18d7100b-de2c-4eaf-a4ae-4ec4b518850d"/>
+    </producedTypes>
+    <name>ПорядокСостояний</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="4f4ee826-65e1-4a84-a3eb-bb9ad30decf8" extendedConfigurationObject="d6f7155e-e4d6-4f36-b831-edca4bd05c1e">
+      <name>Состояние</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.СостоянияЗаказовПокупателей</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

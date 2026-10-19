@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="792939ac-1f0c-4324-beec-325a7514b0a4">
+  <producedTypes>
+    <refType typeId="516c1813-cf77-47eb-93a8-2b222b6be03b" valueTypeId="4a6e4057-e839-4b34-afb8-2b546bae3cf5"/>
+    <listType typeId="b5647022-dfc7-4d68-b54d-0a932ddfe195" valueTypeId="e34f7c34-35f1-4d92-8a30-1ed97735952c"/>
+    <managerType typeId="3defda70-17ad-4ea1-bd48-033678bc9b19" valueTypeId="0916a4e8-2b3a-4593-837e-b408cd3e100a"/>
+  </producedTypes>
+  <name>mona_РешениеВозврат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mona решение возврат</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="57702e3c-393b-4217-8c8e-354580953f49">
+    <name>ВозвратДенег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат денег</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="188124b5-2a7b-4eca-8d27-4d96bddb7087">
+    <name>Обмен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

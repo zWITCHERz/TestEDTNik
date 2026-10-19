@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2d5420d7-6835-40eb-b378-7955d4b6f0a7" extendedConfigurationObject="56c97ee3-ac22-45b7-b334-45c9811e9772">
+  <producedTypes>
+    <selectionType typeId="059978ec-c498-4573-a404-ebc2ac9b25da" valueTypeId="165cae28-7e56-4a22-b438-c22ec79ee026"/>
+    <listType typeId="f27633cb-3aef-482f-b3c5-27c7f0cc82a5" valueTypeId="5cfca0b4-b401-4da9-ab1c-549f9b083f68"/>
+    <managerType typeId="1dd33399-3d5e-4cce-a618-6c69c6382bf0" valueTypeId="d37414e5-409f-4e47-849f-941405fe6715"/>
+    <recordSetType typeId="82fb608a-09ed-499e-86f7-40d7ec066f8b" valueTypeId="2e99b61d-a8bb-4ccd-8537-587aadd197b5"/>
+    <recordKeyType typeId="725a4229-5611-420f-8a57-648c1e146044" valueTypeId="bc4aa651-9722-4447-8f5c-862cad8d6769"/>
+    <recordType typeId="1b3b403a-484b-4da9-afa0-f61849078c43" valueTypeId="2ff83f80-a1db-471c-aae2-99d38616452c"/>
+    <recordManagerType typeId="a8263e8e-4da0-4f1a-aa9f-b2a8a50add7c" valueTypeId="62188948-a0d6-4bc8-8d32-579a2554cb95"/>
+  </producedTypes>
+  <name>ГрафикОплатыЗаказов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dimensions uuid="7008ad3b-1ae5-4918-934b-631311b427ce" extendedConfigurationObject="88ffb344-d858-45b9-aa6a-9ca854318cc6">
+    <name>СчетНаОплату</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5785f173-e206-476f-9a10-aafc92736016">
+  <producedTypes>
+    <objectType typeId="ab4a869e-d936-44cf-8ef6-8043e74aef19" valueTypeId="bb6cf553-15f4-44ab-bddb-e35cad57b824"/>
+    <managerType typeId="fa922570-2200-44f1-ae12-7d7f4c59b23c" valueTypeId="1d67afc1-ff38-4ddc-955d-6f96e6299e8d"/>
+  </producedTypes>
+  <name>mona_ТестЯндексДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест яндекс доставки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.mona_ТестЯндексДоставки.Form.Форма</defaultForm>
+  <forms uuid="fcad0019-d0b9-4d8a-9ea5-ae0a08f09e97">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

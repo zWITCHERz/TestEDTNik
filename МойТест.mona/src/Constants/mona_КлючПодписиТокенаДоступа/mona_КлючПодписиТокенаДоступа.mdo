@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c1bdea0-cdf8-4bb0-9a2f-1b4752f90805">
+  <producedTypes>
+    <managerType typeId="c2ae0f92-cc47-4f5d-b89e-c6cf03cb708f" valueTypeId="ff88f40b-7a17-4c5d-8d8b-97d2421a29d6"/>
+    <valueManagerType typeId="2a3de171-8a04-42bc-b29d-6f7c0a0e3526" valueTypeId="fc17916c-19a6-42c0-91e9-171479fd2265"/>
+    <valueKeyType typeId="2ff59bc3-a2b5-4a6f-a6b4-c2f2d8355b9d" valueTypeId="f24ce8d1-c6ff-4ef5-a10c-39146f09bcaa"/>
+  </producedTypes>
+  <name>mona_КлючПодписиТокенаДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключ подписи токена доступа к веб-сервису mona</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Ключ подписи токена доступа к веб-сервису 1С:Документооборот</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

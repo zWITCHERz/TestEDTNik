@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcfb6c7b-2e97-46ab-a9ca-2c55b7701a12">
+  <producedTypes>
+    <managerType typeId="2bf9b20a-b4fc-4ac4-ba0d-1c54cd18df74" valueTypeId="6d14c88d-7667-4699-897c-09ffadee2315"/>
+    <valueManagerType typeId="0f4ea5bd-bfde-4210-b449-fdd8880a5347" valueTypeId="51cbecf5-f97a-480b-8a2f-00a05887d0a7"/>
+    <valueKeyType typeId="6544b75b-c115-4d4f-8115-ff0aa64d1831" valueTypeId="7a4343d8-7795-415e-812f-1006fadb9f27"/>
+  </producedTypes>
+  <name>mona_ТокенДляВебхука</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токен для вебхука</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>256</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

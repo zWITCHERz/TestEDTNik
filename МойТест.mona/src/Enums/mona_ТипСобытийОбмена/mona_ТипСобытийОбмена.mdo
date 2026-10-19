@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="740e87a0-a665-44a2-bf7d-2c3e7a78246c">
+  <producedTypes>
+    <refType typeId="a4916470-ac12-4cb4-b7fd-572a6c0cd4b1" valueTypeId="a6961fa8-a232-4b13-a582-9e9caf62e493"/>
+    <listType typeId="aca8f883-e299-4919-9c06-15e9c618a624" valueTypeId="53fa28e6-2aed-4b75-bdf2-43333119d458"/>
+    <managerType typeId="2f883f07-1cf1-42fb-90b9-8165c021897b" valueTypeId="0eb943ce-5445-437d-af40-e82ea56f324a"/>
+  </producedTypes>
+  <name>mona_ТипСобытийОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mona тип событий обмена</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="be0e0a72-0436-4225-a3db-3c672c876db9">
+    <name>СозданиеПлатежнойСессии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание платежной сессии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8bc42741-0264-4cf3-a9ac-d2066025d92d">
+    <name>УспешнаяОплата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешная оплата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b838960-4ec0-4960-9427-72711822dbee">
+    <name>ОшибкаОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка оплаты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="364c41e4-d830-4f8c-b7c8-1f985db25ead">
+    <name>АвтоОтмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авто отмена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7d99b544-42af-4849-beaa-2e75e9cd1092">
+    <name>ВыгрузкаРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка реализации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6aa09a4-c6d7-4181-8b68-ec830c7cc66d">
+    <name>ФискальныйЧекПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фискальный чек продажи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a6d1f36-1ec5-44e9-bc62-37f71626337f">
+    <name>СозданиеЗаявкиЯндекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание заявки яндекс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de088dc1-30d2-42ea-92fe-bdfc8f67cd59">
+    <name>ОбновлениеСтатусаЯндекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление статуса яндекс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d56fb4e-ad0a-463a-9861-b7e6f46465aa">
+    <name>ОтменаЗаявкиЯндекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отмена заявки яндекс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="005a702f-9076-483c-84b9-cd6d8827ef8f">
+    <name>ОшибкаОбменаСПриложением</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка обмена с приложением</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c285a69-46d5-459a-8646-0509afae76ea">
+    <name>ОшибкаОбменаСЯндекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка обмена с яндекс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="62b96085-7aab-4f4f-884d-b9f30f8d5409">
+    <name>ОшибкаОбменаСБухгалтерией</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка обмена с бухгалтерией</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13fd7b4c-17cb-40fe-abeb-b2a1f3a0da45">
+    <name>ОшибкаОбменаСWebkassa</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка обмена с webkassa</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbb97055-4241-4296-af4e-8808ea91becd">
+    <name>ПолученЗаказОтПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получен заказ от приложения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95257072-d5e3-4b2d-baa6-5f99e060c551">
+    <name>WebhookПолучен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Webhook получен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="77252533-1f3a-4baa-a846-0c420d4f51ed">
+    <name>РасчетСтоимостиЯндекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет стоимости яндекс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03e3e414-22a7-4111-a281-04695bf6e165">
+    <name>ПодтверждениеЗаявкиЯндекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение заявки яндекс</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

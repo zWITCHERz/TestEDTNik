@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b55dbb88-2010-4db2-b1f7-1f374a25702c" extendedConfigurationObject="d9794fbb-d364-414b-b817-4faa0874a547">
+  <producedTypes>
+    <refType typeId="f3daf2c7-c783-487e-b463-9e0cf0857650" valueTypeId="eb17bc8d-b0ad-45d3-a4e5-baa612f5f83c"/>
+    <listType typeId="6db860c8-b057-41e8-9e8c-c0231cab21b2" valueTypeId="474d02a9-e123-4a78-8545-f11249d27efc"/>
+    <managerType typeId="108449fd-5553-4d81-9665-ed712cc99f41" valueTypeId="05617fe9-98af-4106-8d4e-e1596dc4fbe7"/>
+  </producedTypes>
+  <name>СтатусыЯндексДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c2cc34d5-0ed5-4b39-9ae4-411b4c145581" extendedConfigurationObject="8846c792-7ed9-4e59-ac37-b89b8acbc1bc" thisNode="552444ad-4c1b-40d5-a1c9-2751ec026f69">
+  <producedTypes>
+    <objectType typeId="1b2f5e9c-d529-4e80-991f-81671efce8ba" valueTypeId="cdcb9ad0-5625-42ca-a652-a063373ed8bb"/>
+    <refType typeId="31aac02a-7046-4ef6-9009-8cbc7f3d7c84" valueTypeId="763023da-6956-4f03-9a78-b23d7fb638dc"/>
+    <selectionType typeId="22574fba-a5b3-41fa-ab40-bd3b2db305b4" valueTypeId="7fad1ded-4fd7-4dc9-87fd-9bef29ecaf04"/>
+    <listType typeId="f0887b6e-4514-4e8f-b152-696bf31fb063" valueTypeId="5bb6d960-b8cc-4ed3-a48c-bd9cd2f98900"/>
+    <managerType typeId="a8f097a6-7524-4991-9a9d-8093d3fb7c27" valueTypeId="b0ae8b0e-89d2-48c1-bb8b-82da0a2a5856"/>
+  </producedTypes>
+  <name>ИнтеграцияСИнтернетМагазиномЗаказы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ExchangePlanExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:ExchangePlan>

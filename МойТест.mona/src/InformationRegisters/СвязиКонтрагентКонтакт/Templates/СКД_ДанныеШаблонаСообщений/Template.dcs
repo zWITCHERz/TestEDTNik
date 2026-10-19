@@ -1,0 +1,1182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Проект</dataPath>
+			<field>Проект</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерЧекаККМ</dataPath>
+			<field>НомерЧекаККМ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.СтавкаАкциза</dataPath>
+			<field>Запасы.СтавкаАкциза</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Автор</dataPath>
+			<field>Автор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресЧекаЕГАИС</dataPath>
+			<field>АдресЧекаЕГАИС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.Всего</dataPath>
+			<field>Запасы.Всего</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПокупателюВыставляетсяКорректировочныйСчетФактура</dataPath>
+			<field>ПокупателюВыставляетсяКорректировочныйСчетФактура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтрихкодыУпаковок.ШтрихкодУпаковки</dataPath>
+			<field>ШтрихкодыУпаковок.ШтрихкодУпаковки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВерсияДанных</dataPath>
+			<field>ВерсияДанных</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПометкаУдаления</dataPath>
+			<field>ПометкаУдаления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерСменыККМ</dataPath>
+			<field>НомерСменыККМ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АдресЭП</dataPath>
+			<field>АдресЭП</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Проведен</dataPath>
+			<field>Проведен</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Телефон</dataPath>
+			<field>Телефон</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоложениеПроекта</dataPath>
+			<field>ПоложениеПроекта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.Заказ</dataPath>
+			<field>Расходы.Заказ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АктПереданВЕГАИС</dataPath>
+			<field>АктПереданВЕГАИС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПолученИзЕГАИС</dataPath>
+			<field>ПолученИзЕГАИС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидЦенКонтрагента</dataPath>
+			<field>ВидЦенКонтрагента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВалютаДокумента</dataPath>
+			<field>ВалютаДокумента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидОперации</dataPath>
+			<field>ВидОперации</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументОснование</dataPath>
+			<field>ДокументОснование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВключатьРасходыВСебестоимость</dataPath>
+			<field>ВключатьРасходыВСебестоимость</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.НомерСтроки</dataPath>
+			<field>Расходы.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаВходящегоДокумента</dataPath>
+			<field>ДатаВходящегоДокумента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДисконтнаяКарта</dataPath>
+			<field>ДисконтнаяКарта</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроверятьРасхожденияСВходящимДокументом</dataPath>
+			<field>ПроверятьРасхожденияСВходящимДокументом</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Договор</dataPath>
+			<field>Договор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ХозяйственнаяОперация</dataPath>
+			<field>ХозяйственнаяОперация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕстьМаркируемаяПродукцияГИСМ</dataPath>
+			<field>ЕстьМаркируемаяПродукцияГИСМ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.КоэффициентПересчета</dataPath>
+			<field>Запасы.КоэффициентПересчета</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЕстьРасхождения</dataPath>
+			<field>ЕстьРасхождения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодписьЧекаЕГАИС</dataPath>
+			<field>ПодписьЧекаЕГАИС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Заказ</dataPath>
+			<field>Заказ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ИдентификаторЧекаШтрихМ</dataPath>
+			<field>ИдентификаторЧекаШтрихМ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидЦенВозврата</dataPath>
+			<field>ВидЦенВозврата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СтруктурнаяЕдиница</dataPath>
+			<field>СтруктурнаяЕдиница</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.ОкруглятьДоЦелого</dataPath>
+			<field>Запасы.ОкруглятьДоЦелого</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НомерВходящегоДокумента</dataPath>
+			<field>НомерВходящегоДокумента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонтактноеЛицоПодписант</dataPath>
+			<field>КонтактноеЛицоПодписант</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>Запасы</dataPath>
+			<field>Запасы</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ячейка</dataPath>
+			<field>Ячейка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика.Сумма</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика.Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Кратность</dataPath>
+			<field>Кратность</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НалогообложениеНДС</dataPath>
+			<field>НалогообложениеНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Курс</dataPath>
+			<field>Курс</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НДСВключатьВСтоимость</dataPath>
+			<field>НДСВключатьВСтоимость</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияПрослеживаемости.КоличествоПрослеживаемости</dataPath>
+			<field>СведенияПрослеживаемости.КоличествоПрослеживаемости</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика.Характеристика</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика.Характеристика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОсвобождатьАвансАвтоматически</dataPath>
+			<field>ОсвобождатьАвансАвтоматически</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодписьКассира</dataPath>
+			<field>ПодписьКассира</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПодписьКладовщика</dataPath>
+			<field>ПодписьКладовщика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаВключаетНДС</dataPath>
+			<field>СуммаВключаетНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>ДополнительныеРеквизиты</dataPath>
+			<field>ДополнительныеРеквизиты</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоложениеЗаказаПоставщику</dataPath>
+			<field>ПоложениеЗаказаПоставщику</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерииНоменклатуры.НомерСтроки</dataPath>
+			<field>СерииНоменклатуры.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПокупателемВыставляетсяСчетФактураНаВозврат</dataPath>
+			<field>ПокупателемВыставляетсяСчетФактураНаВозврат</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АкцизныеМарки.АкцизнаяМарка</dataPath>
+			<field>АкцизныеМарки.АкцизнаяМарка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РегистрироватьЦеныПоставщика</dataPath>
+			<field>РегистрироватьЦеныПоставщика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоложениеСклада</dataPath>
+			<field>ПоложениеСклада</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПолученыДокументыПодтверждающиеРасхождения</dataPath>
+			<field>ПолученыДокументыПодтверждающиеРасхождения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.Ссылка</dataPath>
+			<field>Расходы.Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПроверятьРасхожденияСЗаказом</dataPath>
+			<field>ПроверятьРасхожденияСЗаказом</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПринятьПоКолонке</dataPath>
+			<field>ПринятьПоКолонке</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпециальныйНалоговыйРежим</dataPath>
+			<field>СпециальныйНалоговыйРежим</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СпособЗачетаПредоплаты</dataPath>
+			<field>СпособЗачетаПредоплаты</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СрокХранения</dataPath>
+			<field>СрокХранения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СуммаДокумента</dataPath>
+			<field>СуммаДокумента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЧекККМ</dataPath>
+			<field>ЧекККМ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.Сумма</dataPath>
+			<field>Запасы.Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЭтоУниверсальныйДокумент</dataPath>
+			<field>ЭтоУниверсальныйДокумент</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументПоступления</dataPath>
+			<field>ДокументПоступления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоложениеДокументаПоступления</dataPath>
+			<field>ПоложениеДокументаПоступления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.ПрослеживаемыйТовар</dataPath>
+			<field>Запасы.ПрослеживаемыйТовар</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДоговорКомиссии</dataPath>
+			<field>ДоговорКомиссии</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Грузоотправитель</dataPath>
+			<field>Грузоотправитель</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.Ссылка</dataPath>
+			<field>Запасы.Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.НомерСтроки</dataPath>
+			<field>Запасы.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.Номенклатура</dataPath>
+			<field>Запасы.Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.ЕдиницаИзмерения</dataPath>
+			<field>Запасы.ЕдиницаИзмерения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.Характеристика</dataPath>
+			<field>Запасы.Характеристика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.СерииНоменклатуры</dataPath>
+			<field>Запасы.СерииНоменклатуры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика.СуммаНДС</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика.СуммаНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.Цена</dataPath>
+			<field>Запасы.Цена</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтрихкодыУпаковок.РазрешительныйРежимИдентификаторЗапросаГИСМТ</dataPath>
+			<field>ШтрихкодыУпаковок.РазрешительныйРежимИдентификаторЗапросаГИСМТ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.ПроцентСкидкиНаценки</dataPath>
+			<field>Запасы.ПроцентСкидкиНаценки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.СуммаСкидкиНаценки</dataPath>
+			<field>Запасы.СуммаСкидкиНаценки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.СтавкаНДС</dataPath>
+			<field>Запасы.СтавкаНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.СуммаНДС</dataPath>
+			<field>Запасы.СуммаНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.Заказ</dataPath>
+			<field>Запасы.Заказ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтрихкодыУпаковок.ВыбытиеБутылки</dataPath>
+			<field>ШтрихкодыУпаковок.ВыбытиеБутылки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.Себестоимость</dataPath>
+			<field>Запасы.Себестоимость</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтрихкодыУпаковок.ЧастичноеВыбытиеХарактеристика</dataPath>
+			<field>ШтрихкодыУпаковок.ЧастичноеВыбытиеХарактеристика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.Содержание</dataPath>
+			<field>Запасы.Содержание</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.СуммаРасходов</dataPath>
+			<field>Запасы.СуммаРасходов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.КлючСвязи</dataPath>
+			<field>Запасы.КлючСвязи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.ИдентификаторСтроки</dataPath>
+			<field>Запасы.ИдентификаторСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.ЕдиницаИзмеренияАкциза</dataPath>
+			<field>Запасы.ЕдиницаИзмеренияАкциза</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.НеобходимостьВводаАкцизнойМарки</dataPath>
+			<field>Запасы.НеобходимостьВводаАкцизнойМарки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.Партия</dataPath>
+			<field>Запасы.Партия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.ЗаказПокупателя</dataPath>
+			<field>Запасы.ЗаказПокупателя</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.Количество</dataPath>
+			<field>Запасы.Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.СтранаПроисхождения</dataPath>
+			<field>Запасы.СтранаПроисхождения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.НомерГТД</dataPath>
+			<field>Запасы.НомерГТД</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.Номенклатура</dataPath>
+			<field>Расходы.Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.ТоварыДляПроизводства</dataPath>
+			<field>Запасы.ТоварыДляПроизводства</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>СведенияПрослеживаемости</dataPath>
+			<field>СведенияПрослеживаемости</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.СтруктурнаяЕдиница</dataPath>
+			<field>Запасы.СтруктурнаяЕдиница</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.Ячейка</dataPath>
+			<field>Запасы.Ячейка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.НоменклатураНабора</dataPath>
+			<field>Запасы.НоменклатураНабора</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.ХарактеристикаНабора</dataPath>
+			<field>Запасы.ХарактеристикаНабора</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.ДоляСтоимости</dataPath>
+			<field>Запасы.ДоляСтоимости</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.Штрихкод</dataPath>
+			<field>Запасы.Штрихкод</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.НоменклатураЕГАИС</dataPath>
+			<field>Запасы.НоменклатураЕГАИС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.КоличествоСправочно</dataPath>
+			<field>Запасы.КоличествоСправочно</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.Комментарий</dataPath>
+			<field>Запасы.Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.ПрослеживаемыйКомплект</dataPath>
+			<field>Запасы.ПрослеживаемыйКомплект</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.СуммаРасходовБезНДС</dataPath>
+			<field>Запасы.СуммаРасходовБезНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.ДокументПоступления</dataPath>
+			<field>Запасы.ДокументПоступления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.ЦенаПередачи</dataPath>
+			<field>Запасы.ЦенаПередачи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.СуммаПередачи</dataPath>
+			<field>Запасы.СуммаПередачи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.СуммаНДСПередачи</dataPath>
+			<field>Запасы.СуммаНДСПередачи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.НоменклатураПоставщика</dataPath>
+			<field>Запасы.НоменклатураПоставщика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.ПодакцизныйТовар</dataPath>
+			<field>Запасы.ПодакцизныйТовар</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика.СтавкаНДС</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика.СтавкаНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДополнительныеРеквизиты.ТекстоваяСтрока</dataPath>
+			<field>ДополнительныеРеквизиты.ТекстоваяСтрока</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Запасы.СуммаАкциза</dataPath>
+			<field>Запасы.СуммаАкциза</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.ЕдиницаИзмерения</dataPath>
+			<field>Расходы.ЕдиницаИзмерения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.Количество</dataPath>
+			<field>Расходы.Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.Цена</dataPath>
+			<field>Расходы.Цена</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.ПроцентСкидкиНаценки</dataPath>
+			<field>Расходы.ПроцентСкидкиНаценки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.СуммаСкидкиНаценки</dataPath>
+			<field>Расходы.СуммаСкидкиНаценки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.Сумма</dataPath>
+			<field>Расходы.Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.СтавкаНДС</dataPath>
+			<field>Расходы.СтавкаНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.СуммаНДС</dataPath>
+			<field>Расходы.СуммаНДС</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.ЗаказПоставщику</dataPath>
+			<field>Расходы.ЗаказПоставщику</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.Всего</dataPath>
+			<field>Расходы.Всего</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.СтруктурнаяЕдиница</dataPath>
+			<field>Расходы.СтруктурнаяЕдиница</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.НаправлениеДеятельности</dataPath>
+			<field>Расходы.НаправлениеДеятельности</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.Содержание</dataPath>
+			<field>Расходы.Содержание</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДополнительныеРеквизиты.Значение</dataPath>
+			<field>ДополнительныеРеквизиты.Значение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Расходы.Проект</dataPath>
+			<field>Расходы.Проект</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>Расходы</dataPath>
+			<field>Расходы</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предоплата.Ссылка</dataPath>
+			<field>Предоплата.Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предоплата.НомерСтроки</dataPath>
+			<field>Предоплата.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предоплата.Документ</dataPath>
+			<field>Предоплата.Документ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предоплата.НомерСертификата</dataPath>
+			<field>Предоплата.НомерСертификата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияПрослеживаемости.ИдентификаторСтроки</dataPath>
+			<field>СведенияПрослеживаемости.ИдентификаторСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДополнительныеРеквизиты.НомерСтроки</dataPath>
+			<field>ДополнительныеРеквизиты.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предоплата.Заказ</dataPath>
+			<field>Предоплата.Заказ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предоплата.СуммаРасчетов</dataPath>
+			<field>Предоплата.СуммаРасчетов</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика.ИдентификаторУпаковки</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика.ИдентификаторУпаковки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предоплата.Курс</dataPath>
+			<field>Предоплата.Курс</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предоплата.Кратность</dataPath>
+			<field>Предоплата.Кратность</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предоплата.СуммаПлатежа</dataPath>
+			<field>Предоплата.СуммаПлатежа</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предоплата.ОплатаСертификатом</dataPath>
+			<field>Предоплата.ОплатаСертификатом</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДобавленныеНаборы.Ссылка</dataPath>
+			<field>ДобавленныеНаборы.Ссылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавленные наборы.Ссылка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Предоплата.ОплатаБонусами</dataPath>
+			<field>Предоплата.ОплатаБонусами</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>Предоплата</dataPath>
+			<field>Предоплата</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДополнительныеРеквизиты.Ссылка</dataPath>
+			<field>ДополнительныеРеквизиты.Ссылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные реквизиты.Ссылка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БонусныеБаллыКНачислению.ДатаСписания</dataPath>
+			<field>БонусныеБаллыКНачислению.ДатаСписания</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДополнительныеРеквизиты.Свойство</dataPath>
+			<field>ДополнительныеРеквизиты.Свойство</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика.Ссылка</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика.Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика.НомерСтроки</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика.Номенклатура</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика.Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика.ЕдиницаИзмерения</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика.ЕдиницаИзмерения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика.Количество</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика.Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика.Цена</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика.Цена</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика.Всего</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика.Всего</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика.АлкогольнаяПродукция</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика.АлкогольнаяПродукция</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>УдалитьТоварыПоДаннымПоставщика.ИдентификаторСтроки</dataPath>
+			<field>УдалитьТоварыПоДаннымПоставщика.ИдентификаторСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АкцизныеМарки.Ссылка</dataPath>
+			<field>АкцизныеМарки.Ссылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Акцизные марки.Ссылка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АкцизныеМарки.НомерСтроки</dataPath>
+			<field>АкцизныеМарки.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АкцизныеМарки.КлючСвязи</dataPath>
+			<field>АкцизныеМарки.КлючСвязи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АкцизныеМарки.КодАкцизнойМарки</dataPath>
+			<field>АкцизныеМарки.КодАкцизнойМарки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АкцизныеМарки.Справка2</dataPath>
+			<field>АкцизныеМарки.Справка2</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>АкцизныеМарки.ШтрихкодУпаковки</dataPath>
+			<field>АкцизныеМарки.ШтрихкодУпаковки</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>АкцизныеМарки</dataPath>
+			<field>АкцизныеМарки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерииНоменклатуры.Ссылка</dataPath>
+			<field>СерииНоменклатуры.Ссылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Серии номенклатуры.Ссылка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерииНоменклатуры.Серия</dataPath>
+			<field>СерииНоменклатуры.Серия</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерииНоменклатуры.КлючСвязи</dataPath>
+			<field>СерииНоменклатуры.КлючСвязи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерииНоменклатуры.Количество</dataPath>
+			<field>СерииНоменклатуры.Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>СерииНоменклатуры</dataPath>
+			<field>СерииНоменклатуры</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДобавленныеНаборы.НомерСтроки</dataPath>
+			<field>ДобавленныеНаборы.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДобавленныеНаборы.НоменклатураНабора</dataPath>
+			<field>ДобавленныеНаборы.НоменклатураНабора</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДобавленныеНаборы.ХарактеристикаНабора</dataPath>
+			<field>ДобавленныеНаборы.ХарактеристикаНабора</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДобавленныеНаборы.Количество</dataPath>
+			<field>ДобавленныеНаборы.Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>ДобавленныеНаборы</dataPath>
+			<field>ДобавленныеНаборы</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтрихкодыУпаковок.Ссылка</dataPath>
+			<field>ШтрихкодыУпаковок.Ссылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Штрихкоды упаковок.Ссылка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтрихкодыУпаковок.НомерСтроки</dataPath>
+			<field>ШтрихкодыУпаковок.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтрихкодыУпаковок.ЗначениеШтрихкода</dataPath>
+			<field>ШтрихкодыУпаковок.ЗначениеШтрихкода</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтрихкодыУпаковок.ЧастичноеВыбытиеКоличество</dataPath>
+			<field>ШтрихкодыУпаковок.ЧастичноеВыбытиеКоличество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтрихкодыУпаковок.ЧастичноеВыбытиеВариантУчета</dataPath>
+			<field>ШтрихкодыУпаковок.ЧастичноеВыбытиеВариантУчета</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтрихкодыУпаковок.ЧастичноеВыбытиеНоменклатура</dataPath>
+			<field>ШтрихкодыУпаковок.ЧастичноеВыбытиеНоменклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ШтрихкодыУпаковок.РазрешительныйРежимДатаЗапросаГИСМТ</dataPath>
+			<field>ШтрихкодыУпаковок.РазрешительныйРежимДатаЗапросаГИСМТ</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>ШтрихкодыУпаковок</dataPath>
+			<field>ШтрихкодыУпаковок</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияПрослеживаемости.Ссылка</dataPath>
+			<field>СведенияПрослеживаемости.Ссылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сведения прослеживаемости.Ссылка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияПрослеживаемости.НомерСтроки</dataPath>
+			<field>СведенияПрослеживаемости.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияПрослеживаемости.РНПТ</dataPath>
+			<field>СведенияПрослеживаемости.РНПТ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияПрослеживаемости.Количество</dataPath>
+			<field>СведенияПрослеживаемости.Количество</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияПрослеживаемости.СтранаПроисхождения</dataPath>
+			<field>СведенияПрослеживаемости.СтранаПроисхождения</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияПрослеживаемости.Номенклатура</dataPath>
+			<field>СведенияПрослеживаемости.Номенклатура</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СведенияПрослеживаемости.Сумма</dataPath>
+			<field>СведенияПрослеживаемости.Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БонусныеБаллыКНачислению.Ссылка</dataPath>
+			<field>БонусныеБаллыКНачислению.Ссылка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Бонусные баллы к начислению.Ссылка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БонусныеБаллыКНачислению.НомерСтроки</dataPath>
+			<field>БонусныеБаллыКНачислению.НомерСтроки</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БонусныеБаллыКНачислению.КлючСвязи</dataPath>
+			<field>БонусныеБаллыКНачислению.КлючСвязи</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БонусныеБаллыКНачислению.СкидкаНаценка</dataPath>
+			<field>БонусныеБаллыКНачислению.СкидкаНаценка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БонусныеБаллыКНачислению.ДатаНачисления</dataPath>
+			<field>БонусныеБаллыКНачислению.ДатаНачисления</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>БонусныеБаллыКНачислению.КоличествоБонусныхБаллов</dataPath>
+			<field>БонусныеБаллыКНачислению.КоличествоБонусныхБаллов</field>
+		</field>
+		<field xsi:type="DataSetFieldNestedDataSet">
+			<dataPath>БонусныеБаллыКНачислению</dataPath>
+			<field>БонусныеБаллыКНачислению</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Представление</dataPath>
+			<field>Представление</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>МоментВремени</dataPath>
+			<field>МоментВремени</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>mona_РешениеПоВозврату</dataPath>
+			<field>mona_РешениеПоВозврату</field>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>                                             ВЫБРАТЬ
+	ПриходнаяНакладная.Ссылка КАК Ссылка,
+	ПриходнаяНакладная.ВерсияДанных КАК ВерсияДанных,
+	ПриходнаяНакладная.ПометкаУдаления КАК ПометкаУдаления,
+	ПриходнаяНакладная.Номер КАК Номер,
+	ПриходнаяНакладная.Дата КАК Дата,
+	ПриходнаяНакладная.Проведен КАК Проведен,
+	ПриходнаяНакладная.Автор КАК Автор,
+	ПриходнаяНакладная.АдресЧекаЕГАИС КАК АдресЧекаЕГАИС,
+	ПриходнаяНакладная.АдресЭП КАК АдресЭП,
+	ПриходнаяНакладная.АктПереданВЕГАИС КАК АктПереданВЕГАИС,
+	ПриходнаяНакладная.ВалютаДокумента КАК ВалютаДокумента,
+	ПриходнаяНакладная.ВидОперации КАК ВидОперации,
+	ПриходнаяНакладная.ВидЦенКонтрагента КАК ВидЦенКонтрагента,
+	ПриходнаяНакладная.ВключатьРасходыВСебестоимость КАК ВключатьРасходыВСебестоимость,
+	ПриходнаяНакладная.ДатаВходящегоДокумента КАК ДатаВходящегоДокумента,
+	ПриходнаяНакладная.ДисконтнаяКарта КАК ДисконтнаяКарта,
+	ПриходнаяНакладная.Договор КАК Договор,
+	ПриходнаяНакладная.ДокументОснование КАК ДокументОснование,
+	ПриходнаяНакладная.ЕстьМаркируемаяПродукцияГИСМ КАК ЕстьМаркируемаяПродукцияГИСМ,
+	ПриходнаяНакладная.ЕстьРасхождения КАК ЕстьРасхождения,
+	ПриходнаяНакладная.Заказ КАК Заказ,
+	ПриходнаяНакладная.ИдентификаторЧекаШтрихМ КАК ИдентификаторЧекаШтрихМ,
+	ПриходнаяНакладная.Комментарий КАК Комментарий,
+	ПриходнаяНакладная.КонтактноеЛицоПодписант КАК КонтактноеЛицоПодписант,
+	ПриходнаяНакладная.Контрагент КАК Контрагент,
+	ПриходнаяНакладная.Кратность КАК Кратность,
+	ПриходнаяНакладная.Курс КАК Курс,
+	ПриходнаяНакладная.НалогообложениеНДС КАК НалогообложениеНДС,
+	ПриходнаяНакладная.НДСВключатьВСтоимость КАК НДСВключатьВСтоимость,
+	ПриходнаяНакладная.НомерВходящегоДокумента КАК НомерВходящегоДокумента,
+	ПриходнаяНакладная.НомерСменыККМ КАК НомерСменыККМ,
+	ПриходнаяНакладная.НомерЧекаККМ КАК НомерЧекаККМ,
+	ПриходнаяНакладная.Организация КАК Организация,
+	ПриходнаяНакладная.Ответственный КАК Ответственный,
+	ПриходнаяНакладная.ПодписьКассира КАК ПодписьКассира,
+	ПриходнаяНакладная.ПодписьКладовщика КАК ПодписьКладовщика,
+	ПриходнаяНакладная.ПодписьЧекаЕГАИС КАК ПодписьЧекаЕГАИС,
+	ПриходнаяНакладная.Подразделение КАК Подразделение,
+	ПриходнаяНакладная.ПоложениеЗаказаПоставщику КАК ПоложениеЗаказаПоставщику,
+	ПриходнаяНакладная.ПоложениеСклада КАК ПоложениеСклада,
+	ПриходнаяНакладная.ПолученИзЕГАИС КАК ПолученИзЕГАИС,
+	ПриходнаяНакладная.ПолученыДокументыПодтверждающиеРасхождения КАК ПолученыДокументыПодтверждающиеРасхождения,
+	ПриходнаяНакладная.ПринятьПоКолонке КАК ПринятьПоКолонке,
+	ПриходнаяНакладная.ПроверятьРасхожденияСВходящимДокументом КАК ПроверятьРасхожденияСВходящимДокументом,
+	ПриходнаяНакладная.ПроверятьРасхожденияСЗаказом КАК ПроверятьРасхожденияСЗаказом,
+	ПриходнаяНакладная.РегистрироватьЦеныПоставщика КАК РегистрироватьЦеныПоставщика,
+	ПриходнаяНакладная.СпециальныйНалоговыйРежим КАК СпециальныйНалоговыйРежим,
+	ПриходнаяНакладная.СпособЗачетаПредоплаты КАК СпособЗачетаПредоплаты,
+	ПриходнаяНакладная.СрокХранения КАК СрокХранения,
+	ПриходнаяНакладная.СтруктурнаяЕдиница КАК СтруктурнаяЕдиница,
+	ПриходнаяНакладная.СуммаВключаетНДС КАК СуммаВключаетНДС,
+	ПриходнаяНакладная.СуммаДокумента КАК СуммаДокумента,
+	ПриходнаяНакладная.Телефон КАК Телефон,
+	ПриходнаяНакладная.ХозяйственнаяОперация КАК ХозяйственнаяОперация,
+	ПриходнаяНакладная.ЧекККМ КАК ЧекККМ,
+	ПриходнаяНакладная.Ячейка КАК Ячейка,
+	ПриходнаяНакладная.Проект КАК Проект,
+	ПриходнаяНакладная.ЭтоУниверсальныйДокумент КАК ЭтоУниверсальныйДокумент,
+	ПриходнаяНакладная.ВидЦенВозврата КАК ВидЦенВозврата,
+	ПриходнаяНакладная.ОсвобождатьАвансАвтоматически КАК ОсвобождатьАвансАвтоматически,
+	ПриходнаяНакладная.ПокупателюВыставляетсяКорректировочныйСчетФактура КАК ПокупателюВыставляетсяКорректировочныйСчетФактура,
+	ПриходнаяНакладная.ПокупателемВыставляетсяСчетФактураНаВозврат КАК ПокупателемВыставляетсяСчетФактураНаВозврат,
+	ПриходнаяНакладная.ПоложениеПроекта КАК ПоложениеПроекта,
+	ПриходнаяНакладная.ДокументПоступления КАК ДокументПоступления,
+	ПриходнаяНакладная.ПоложениеДокументаПоступления КАК ПоложениеДокументаПоступления,
+	ПриходнаяНакладная.ДоговорКомиссии КАК ДоговорКомиссии,
+	ПриходнаяНакладная.Грузоотправитель КАК Грузоотправитель,
+	ПриходнаяНакладная.Запасы.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Номенклатура КАК Номенклатура,
+		ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+		Характеристика КАК Характеристика,
+		СерииНоменклатуры КАК СерииНоменклатуры,
+		Цена КАК Цена,
+		ПроцентСкидкиНаценки КАК ПроцентСкидкиНаценки,
+		СуммаСкидкиНаценки КАК СуммаСкидкиНаценки,
+		Сумма КАК Сумма,
+		СтавкаНДС КАК СтавкаНДС,
+		СуммаНДС КАК СуммаНДС,
+		Заказ КАК Заказ,
+		Всего КАК Всего,
+		Себестоимость КАК Себестоимость,
+		СуммаРасходов КАК СуммаРасходов,
+		Содержание КАК Содержание,
+		КлючСвязи КАК КлючСвязи,
+		ИдентификаторСтроки КАК ИдентификаторСтроки,
+		НеобходимостьВводаАкцизнойМарки КАК НеобходимостьВводаАкцизнойМарки,
+		Партия КАК Партия,
+		Количество КАК Количество,
+		СтранаПроисхождения КАК СтранаПроисхождения,
+		НомерГТД КАК НомерГТД,
+		ТоварыДляПроизводства КАК ТоварыДляПроизводства,
+		СтруктурнаяЕдиница КАК СтруктурнаяЕдиница,
+		Ячейка КАК Ячейка,
+		НоменклатураНабора КАК НоменклатураНабора,
+		ХарактеристикаНабора КАК ХарактеристикаНабора,
+		ДоляСтоимости КАК ДоляСтоимости,
+		Штрихкод КАК Штрихкод,
+		НоменклатураЕГАИС КАК НоменклатураЕГАИС,
+		ЗаказПокупателя КАК ЗаказПокупателя,
+		КоличествоСправочно КАК КоличествоСправочно,
+		Комментарий КАК Комментарий,
+		ПрослеживаемыйТовар КАК ПрослеживаемыйТовар,
+		ПрослеживаемыйКомплект КАК ПрослеживаемыйКомплект,
+		СуммаРасходовБезНДС КАК СуммаРасходовБезНДС,
+		ДокументПоступления КАК ДокументПоступления,
+		ЦенаПередачи КАК ЦенаПередачи,
+		СуммаПередачи КАК СуммаПередачи,
+		СуммаНДСПередачи КАК СуммаНДСПередачи,
+		НоменклатураПоставщика КАК НоменклатураПоставщика,
+		ПодакцизныйТовар КАК ПодакцизныйТовар,
+		СуммаАкциза КАК СуммаАкциза,
+		СтавкаАкциза КАК СтавкаАкциза,
+		ЕдиницаИзмеренияАкциза КАК ЕдиницаИзмеренияАкциза,
+		КоэффициентПересчета КАК КоэффициентПересчета,
+		ОкруглятьДоЦелого КАК ОкруглятьДоЦелого
+	) КАК Запасы,
+	ПриходнаяНакладная.Расходы.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Номенклатура КАК Номенклатура,
+		ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+		Количество КАК Количество,
+		Цена КАК Цена,
+		ПроцентСкидкиНаценки КАК ПроцентСкидкиНаценки,
+		СуммаСкидкиНаценки КАК СуммаСкидкиНаценки,
+		Сумма КАК Сумма,
+		СтавкаНДС КАК СтавкаНДС,
+		СуммаНДС КАК СуммаНДС,
+		ЗаказПоставщику КАК ЗаказПоставщику,
+		Всего КАК Всего,
+		Заказ КАК Заказ,
+		СтруктурнаяЕдиница КАК СтруктурнаяЕдиница,
+		НаправлениеДеятельности КАК НаправлениеДеятельности,
+		Содержание КАК Содержание,
+		Проект КАК Проект
+	) КАК Расходы,
+	ПриходнаяНакладная.Предоплата.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Документ КАК Документ,
+		НомерСертификата КАК НомерСертификата,
+		Заказ КАК Заказ,
+		СуммаРасчетов КАК СуммаРасчетов,
+		Курс КАК Курс,
+		Кратность КАК Кратность,
+		СуммаПлатежа КАК СуммаПлатежа,
+		ОплатаСертификатом КАК ОплатаСертификатом,
+		ОплатаБонусами КАК ОплатаБонусами
+	) КАК Предоплата,
+	ПриходнаяНакладная.ДополнительныеРеквизиты.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Свойство КАК Свойство,
+		Значение КАК Значение,
+		ТекстоваяСтрока КАК ТекстоваяСтрока
+	) КАК ДополнительныеРеквизиты,
+	ПриходнаяНакладная.УдалитьТоварыПоДаннымПоставщика.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Номенклатура КАК Номенклатура,
+		Характеристика КАК Характеристика,
+		ЕдиницаИзмерения КАК ЕдиницаИзмерения,
+		Количество КАК Количество,
+		Цена КАК Цена,
+		Сумма КАК Сумма,
+		СтавкаНДС КАК СтавкаНДС,
+		СуммаНДС КАК СуммаНДС,
+		Всего КАК Всего,
+		АлкогольнаяПродукция КАК АлкогольнаяПродукция,
+		ИдентификаторСтроки КАК ИдентификаторСтроки,
+		ИдентификаторУпаковки КАК ИдентификаторУпаковки
+	) КАК УдалитьТоварыПоДаннымПоставщика,
+	ПриходнаяНакладная.АкцизныеМарки.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		КлючСвязи КАК КлючСвязи,
+		КодАкцизнойМарки КАК КодАкцизнойМарки,
+		АкцизнаяМарка КАК АкцизнаяМарка,
+		Справка2 КАК Справка2,
+		ШтрихкодУпаковки КАК ШтрихкодУпаковки
+	) КАК АкцизныеМарки,
+	ПриходнаяНакладная.СерииНоменклатуры.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		Серия КАК Серия,
+		КлючСвязи КАК КлючСвязи,
+		Количество КАК Количество
+	) КАК СерииНоменклатуры,
+	ПриходнаяНакладная.ДобавленныеНаборы.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		НоменклатураНабора КАК НоменклатураНабора,
+		ХарактеристикаНабора КАК ХарактеристикаНабора,
+		Количество КАК Количество
+	) КАК ДобавленныеНаборы,
+	ПриходнаяНакладная.ШтрихкодыУпаковок.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		ШтрихкодУпаковки КАК ШтрихкодУпаковки,
+		ЗначениеШтрихкода КАК ЗначениеШтрихкода,
+		ЧастичноеВыбытиеКоличество КАК ЧастичноеВыбытиеКоличество,
+		ЧастичноеВыбытиеВариантУчета КАК ЧастичноеВыбытиеВариантУчета,
+		ЧастичноеВыбытиеНоменклатура КАК ЧастичноеВыбытиеНоменклатура,
+		ЧастичноеВыбытиеХарактеристика КАК ЧастичноеВыбытиеХарактеристика,
+		РазрешительныйРежимИдентификаторЗапросаГИСМТ КАК РазрешительныйРежимИдентификаторЗапросаГИСМТ,
+		РазрешительныйРежимДатаЗапросаГИСМТ КАК РазрешительныйРежимДатаЗапросаГИСМТ,
+		ВыбытиеБутылки КАК ВыбытиеБутылки
+	) КАК ШтрихкодыУпаковок,
+	ПриходнаяНакладная.СведенияПрослеживаемости.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		РНПТ КАК РНПТ,
+		Количество КАК Количество,
+		КоличествоПрослеживаемости КАК КоличествоПрослеживаемости,
+		ИдентификаторСтроки КАК ИдентификаторСтроки,
+		СтранаПроисхождения КАК СтранаПроисхождения,
+		Номенклатура КАК Номенклатура,
+		Сумма КАК Сумма
+	) КАК СведенияПрослеживаемости,
+	ПриходнаяНакладная.БонусныеБаллыКНачислению.(
+		Ссылка КАК Ссылка,
+		НомерСтроки КАК НомерСтроки,
+		КлючСвязи КАК КлючСвязи,
+		СкидкаНаценка КАК СкидкаНаценка,
+		ДатаНачисления КАК ДатаНачисления,
+		ДатаСписания КАК ДатаСписания,
+		КоличествоБонусныхБаллов КАК КоличествоБонусныхБаллов
+	) КАК БонусныеБаллыКНачислению,
+	ПриходнаяНакладная.Представление КАК Представление,
+	ПриходнаяНакладная.МоментВремени КАК МоментВремени,
+	ПриходнаяНакладная.mona_РешениеПоВозврату КАК mona_РешениеПоВозврату
+ИЗ
+	Документ.ПриходнаяНакладная КАК ПриходнаяНакладная</query>
+	</dataSet>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+	</settingsVariant>
+</DataCompositionSchema>

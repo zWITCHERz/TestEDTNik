@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1ef9f157-49f9-4804-a389-5023832c2251" extendedConfigurationObject="51b0bc2c-b988-4400-9947-b5a1f3b30f91">
+  <producedTypes>
+    <refType typeId="b05517b5-ce7e-474b-85cf-24592d30c36b" valueTypeId="cc49f24e-acb3-4b51-916b-e50aa8430844"/>
+    <listType typeId="7bcb406f-62f3-4b6b-a024-7e4258711b14" valueTypeId="9f295062-5ecf-4911-8085-ffc82f4ed0f3"/>
+    <managerType typeId="9c2ec327-c16d-448e-ae5d-8883636af1bd" valueTypeId="417ea979-d274-42d2-bbd9-3348063d086d"/>
+  </producedTypes>
+  <name>ТипыОплатНаСайте</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="9e4e8ae8-e28e-46d0-961b-df95c62c0c8f" extendedConfigurationObject="c75941ae-a177-4f57-9e44-74e03fe30122">
+    <name>Эквайринг</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

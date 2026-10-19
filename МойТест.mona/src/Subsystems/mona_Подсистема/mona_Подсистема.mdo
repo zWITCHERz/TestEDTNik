@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f4003604-e741-4d1f-86d3-72be3ca52abd">
+  <name>mona_Подсистема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Naturalia Mobile</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.mona_КартинкаЛого</picture>
+  </picture>
+  <content>Catalog.НастройкиЯндексДоставки</content>
+  <content>Catalog.СлужбыДоставки</content>
+  <content>Catalog.ПричиныОтменыЗаказа</content>
+  <content>Catalog.СостоянияЗаказовПокупателей</content>
+  <content>Catalog.ВидыЗаказовПокупателей</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.СтруктурныеЕдиницы</content>
+  <content>HTTPService.mona_HTTP</content>
+  <content>InformationRegister.ЗаказыОнлайн</content>
+  <content>Document.ЗаказПокупателя</content>
+  <content>Document.ЧекККМ</content>
+  <content>Document.ЧекККМВозврат</content>
+  <content>Document.ПеремещениеЗапасов</content>
+  <content>Document.ПриходнаяНакладная</content>
+  <content>Document.СписаниеЗапасов</content>
+  <content>Catalog.mona_ПричиныСписания</content>
+  <content>Catalog.mona_ТочкиОтгрузки</content>
+  <content>Document.ЗаказПоставщику</content>
+  <content>DocumentJournal.ЧекиККМ</content>
+  <content>Catalog.mona_Бренд</content>
+  <content>InformationRegister.mona_ЖурналОбмена</content>
+  <content>Enum.mona_ВидыПредупреждений</content>
+  <content>DataProcessor.mona_ТестЯндексДоставки</content>
+  <content>CommonModule.mona_ЯндексДоставкаСервер</content>
+  <content>Report.mona_ЗаказыСНулевымОстаткомНоменклатурыНаСкладе</content>
+  <content>Report.mona_Возвраты</content>
+  <content>Report.ПродажиСоШтрихкодами</content>
+</mdclass:Subsystem>

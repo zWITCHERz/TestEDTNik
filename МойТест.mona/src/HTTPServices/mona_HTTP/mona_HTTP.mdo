@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f683eae-b62d-460e-9300-7cb9c43ce129">
+  <name>mona_HTTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mobile naturalia HTTP</value>
+  </synonym>
+  <rootURL>monapi</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="3805528d-6b51-48b0-86ee-9595ea109f8a">
+    <name>monaproduct</name>
+    <synonym>
+      <key>ru</key>
+      <value>Monaproduct</value>
+    </synonym>
+    <template>/v1/{Сценарий}/{Идентификатор}/{Команда}</template>
+    <methods uuid="20741dba-dfa8-4ace-a920-218fe3572a94">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>monaGET</handler>
+    </methods>
+    <methods uuid="332d5a3e-30cd-4e1f-9935-d67bfaae2177">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>monaPOST</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ccfecccb-7cd5-4795-b6e5-14b6dd105bf7">
+    <name>Версия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <template>/version</template>
+    <methods uuid="e855fb23-a1d0-4c85-b456-1d211bfa7515">
+      <name>Версия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Версия</value>
+      </synonym>
+      <handler>ВерсияВерсия</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="b33f8412-1727-462e-b229-1895e7b6bf43">
+    <name>monacatalog</name>
+    <synonym>
+      <key>ru</key>
+      <value>Monacatalog</value>
+    </synonym>
+    <template>/v1/{Сценарий}</template>
+    <methods uuid="b5e934ea-23d2-4c4d-ab59-4a14325298b2">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>monaGET</handler>
+    </methods>
+    <methods uuid="4c05619b-958f-4f89-aaff-c6b080f804a2">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>monaPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

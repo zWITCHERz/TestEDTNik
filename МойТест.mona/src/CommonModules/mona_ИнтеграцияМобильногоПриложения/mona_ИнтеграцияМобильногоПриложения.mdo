@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="caab2bce-91a0-4e48-9a47-9ae79452d330">
+  <name>mona_ИнтеграцияМобильногоПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция мобильного приложения</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cbd63ce-db5e-4ef9-8332-8fb7bd56ac96">
+  <name>mona_YandexWebHook</name>
+  <synonym>
+    <key>ru</key>
+    <value>yandex web hook</value>
+  </synonym>
+  <rootURL>yandex-delivery</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="ca0fb229-550f-492e-9679-984c38c486db">
+    <name>ШаблонСтатусов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон статусов</value>
+    </synonym>
+    <template>/v1/status</template>
+    <methods uuid="173ea385-b451-4055-8e6e-d23251ae6324">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ШаблонСтатусовPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

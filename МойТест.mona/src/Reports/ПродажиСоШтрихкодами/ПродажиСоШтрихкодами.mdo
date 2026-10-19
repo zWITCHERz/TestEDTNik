@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb067948-ce03-4bdf-82dc-c51f595ddefd">
+  <producedTypes>
+    <objectType typeId="702b5e8b-4742-4629-bd16-e634ecf99dba" valueTypeId="b51dbe6a-1bb4-480e-be83-780fc3bd9a0e"/>
+    <managerType typeId="0819f502-3fe3-465f-a73a-e4dfc1036b0b" valueTypeId="ab1f11d5-1186-4aaf-b5c0-7cc33db91266"/>
+  </producedTypes>
+  <name>ПродажиСоШтрихкодами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи со штрихкодами</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПродажиСоШтрихкодами.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="bb17db6d-bdfe-453d-abf2-e9a517f0840c">
+    <name>ЭтоОтчетУНФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные настройки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <templates uuid="a152e4a1-0703-491f-a6b4-9ee39ac31d51">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="e2e98c9e-9223-47c7-8419-447de8940be5">
+    <name>ОбразецПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="a746ce44-a541-4d72-a148-8ec9c2ba27b0">
+    <name>ОбразецДинамикаПродажПоМенеджерам</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДинамикаПродажПоМенеджерам</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="657a6f55-bf51-480f-bec3-3b9dbae0d59b">
+    <name>ОбразецДинамикаПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДинамикаПродаж</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="e0902f6c-fc0f-4ad6-ba25-4c2790c48b93">
+    <name>ОбразецДинамикаПродажПоПокупателям</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДинамикаПродажПоПокупателям</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="1cc6f128-3a8a-4f84-9d25-785f68836280">
+    <name>ОбразецДинамикаПродажПоКатегориямНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДинамикаПродажПоКатегориямНоменклатуры</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="4a2cb763-9461-4af8-8e48-7cce806ea909">
+    <name>ОбразецДинамикаПродажПоНоменклатуре</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДинамикаПродажПоНоменклатуре</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="de1b0351-5599-4f7d-81d4-116d8a9ad494">
+    <name>ОбразецВаловаяПрибыль</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВаловаяПрибыль</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="03fdd72b-daa7-485b-8f0a-9166b23c30a2">
+    <name>ОбразецВаловаяПрибыльПоКатегориямНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец валовая прибыль по категориям номенклатуры</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="6990e872-17ec-42bd-996a-3bb3d4491c25">
+    <name>ОбразецВаловаяПрибыльПоПокупателям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец валовая прибыль по покупателям</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="05359bfe-b35a-4b00-8bec-3093058ee873">
+    <name>ОбразецВаловаяПрибыльПоМенеджерам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец валовая прибыль по менеджерам</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="80d05ea4-969d-4b86-a5d7-63ee0fe26172">
+    <name>ОбразецВозвраты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец возвраты</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="049602d3-b9d3-4ee2-a76d-b22e6509986d">
+    <name>ОбразецПродажиКонтекст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец продажи контекст</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="7813d598-5513-47ad-a2c0-4191bf575e5b">
+    <name>ОбразецПродажиНашимОрганизациям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="5399396e-070a-4dc8-8804-c3d9f56e95f6">
+    <name>ОбразецПродажиБезВнутрифирменныхПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Report>

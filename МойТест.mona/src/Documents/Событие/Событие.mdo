@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e50191c2-5890-4759-b98c-0ba781b8dfc9" extendedConfigurationObject="571e1bd9-0f64-4a05-a276-dba4fe242ad0">
+  <producedTypes>
+    <objectType typeId="db1113ec-a076-440d-97f2-99f8279f59d0" valueTypeId="49cdf266-57c0-488c-9b88-b69253d2f1e0"/>
+    <refType typeId="8c37c7db-e1be-43c7-9e72-9603a8a235be" valueTypeId="6865339a-af3a-4427-8696-68807d6ee80a"/>
+    <selectionType typeId="426cf845-51d2-40d3-9e75-140b35bbb63e" valueTypeId="f188e640-feb7-4ff3-848a-10c88a784cae"/>
+    <listType typeId="0a7d3587-1595-456d-86e9-d41c7fb45511" valueTypeId="fc11971e-9938-42f8-b647-1ebd8630d6ba"/>
+    <managerType typeId="af5505ee-904e-4c4d-883e-f035ab7018f5" valueTypeId="8d926650-2060-4c1c-9ba4-be3c5a23abdf"/>
+  </producedTypes>
+  <name>Событие</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

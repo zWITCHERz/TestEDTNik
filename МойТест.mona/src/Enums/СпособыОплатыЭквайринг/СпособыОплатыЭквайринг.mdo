@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a5e83493-99f6-400c-940c-34e141c2b632" extendedConfigurationObject="bab76d6b-e759-4c94-bac8-b4f0558a38ed">
+  <producedTypes>
+    <refType typeId="9ae16329-3250-4007-a464-7f079c7c7fa4" valueTypeId="99796b1e-6dee-4643-9507-97e6374c777e"/>
+    <listType typeId="cca88b12-ec4f-41b1-973a-189fa7015db3" valueTypeId="479fce08-ab34-440e-b09b-91aa660da5e7"/>
+    <managerType typeId="2f5348eb-b0fd-4939-a6c4-66bf07683db8" valueTypeId="71770930-00d0-4307-9f1b-b605b0d3692d"/>
+  </producedTypes>
+  <name>СпособыОплатыЭквайринг</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

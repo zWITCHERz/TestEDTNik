@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="66abe29e-c087-411f-8c76-bc0ec0cb253c" extendedConfigurationObject="8fd6c801-99bd-4e78-9b62-190762b9190c">
+  <producedTypes>
+    <objectType typeId="ee4c2a59-f3ff-43e7-a0d6-7216410ed9fe" valueTypeId="26697e50-2632-43c7-bcc4-291d6eec6ac5"/>
+    <refType typeId="2a45650b-6748-4793-a2ec-aac17b1502a5" valueTypeId="4d8805e9-80e0-418c-8e74-0b0b894d7e72"/>
+    <selectionType typeId="eefedaa6-bc00-4f74-92f5-de8d9ba93766" valueTypeId="f5a20198-de3f-4b0b-bd4a-32b795aeee74"/>
+    <listType typeId="17fa9cf8-083f-4721-88ee-ef51c4d6b3a2" valueTypeId="2dad60a0-b2a8-474e-92c9-b6c6639f44d9"/>
+    <managerType typeId="b62c1c05-f0b7-4453-9b8f-0dd31fab0b0f" valueTypeId="b3e47cd8-1f7d-41c5-a898-f39724fdd9f4"/>
+  </producedTypes>
+  <name>ХозяйственныеОперации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+    <predefined>Extended</predefined>
+  </extension>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <predefined>
+    <items id="02f3d14b-a2dd-4e7e-8aac-ef5eaa2b773d">
+      <name>СписаниеЗапасов</name>
+      <description>Списание запасов</description>
+      <extension xsi:type="mdclassExtension:PredefinedItemExtension">
+        <state>AdoptedCheck</state>
+      </extension>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+</mdclass:Catalog>

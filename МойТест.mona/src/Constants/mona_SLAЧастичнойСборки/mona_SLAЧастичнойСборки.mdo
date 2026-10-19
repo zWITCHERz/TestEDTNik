@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ef0c0b0-7263-4326-a525-fd35cca40738">
+  <producedTypes>
+    <managerType typeId="449c0733-0b9f-4d1d-8d14-e2a5c823ff28" valueTypeId="918a235d-65b9-41d8-aadf-02dee80fdb7f"/>
+    <valueManagerType typeId="9063f087-fd70-43ba-877c-6bf826a2b48c" valueTypeId="abc916da-4e7e-4505-a6ce-e0d7bbfb2279"/>
+    <valueKeyType typeId="8b9dde78-ce85-4616-a22d-d7de7c752394" valueTypeId="8f2d057d-8db2-4cfb-ab4d-f3bbe966e6d5"/>
+  </producedTypes>
+  <name>mona_SLAЧастичнойСборки</name>
+  <synonym>
+    <key>ru</key>
+    <value>SLAЧастичной сборки</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.mona_Константы</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

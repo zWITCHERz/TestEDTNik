@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cffecf27-192b-45cc-8402-67bd9c06a674">
+  <name>mona_АктОПризнании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mona акт о признании</value>
+  </synonym>
+</mdclass:CommonTemplate>

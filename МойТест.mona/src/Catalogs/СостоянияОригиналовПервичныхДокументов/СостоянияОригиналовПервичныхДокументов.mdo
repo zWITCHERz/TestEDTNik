@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3d194d42-1134-4383-8925-56606d424ef7" extendedConfigurationObject="8b5358e9-5810-45a7-a49e-fe7fe63c73f3">
+  <producedTypes>
+    <objectType typeId="48a83310-f518-4cc4-98e1-4b0e26410599" valueTypeId="8d248686-16a6-4018-a9fd-52e76fd4af70"/>
+    <refType typeId="e5b7b6d7-c1dc-446a-bdd9-58fcd93aa0b4" valueTypeId="8a718c7a-4fa7-44b6-b151-9ad7ef8df4a0"/>
+    <selectionType typeId="acb96fc8-f992-4f47-b9da-712f535e924d" valueTypeId="bdfb6a39-b4a6-45fb-8cf0-1c6ca3e89892"/>
+    <listType typeId="8a4779d5-0269-4bc6-a30d-a531c7181e2a" valueTypeId="2e4613b5-62f2-4430-b4c3-a7316fbe087d"/>
+    <managerType typeId="86cf8551-edb2-479a-a653-550b6654a05c" valueTypeId="b00278b8-aa2e-4a35-b6c0-684d8aec3375"/>
+  </producedTypes>
+  <name>СостоянияОригиналовПервичныхДокументов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

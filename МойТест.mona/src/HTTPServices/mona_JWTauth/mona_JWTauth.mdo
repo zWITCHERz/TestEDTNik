@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c14ab0db-983d-4d94-b2ab-c342dd351f2d">
+  <name>mona_JWTauth</name>
+  <synonym>
+    <key>ru</key>
+    <value>JWTAuth</value>
+  </synonym>
+  <rootURL>JWTAuth</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="e774a913-f48d-4e63-8dfc-155f6f96499c">
+    <name>ГенерацияТокена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Генерация токена</value>
+    </synonym>
+    <template>/gentoken</template>
+    <methods uuid="12c1f4ab-7509-49cc-a78b-0787d2ec951c">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ГенерацияТокенаGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="1fb05fdf-766f-4141-9b93-8ee4f149b48b">
+    <name>ТестАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест авторизации</value>
+    </synonym>
+    <template>/testauth</template>
+    <methods uuid="ccbe2d09-3d26-488b-a7ef-40e978a1f8a5">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ТестАвторизацииGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

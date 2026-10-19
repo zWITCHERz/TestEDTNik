@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa8fd0c3-5388-4209-b91d-53b305ecbddc">
+  <name>mona_КартинкаЛого</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mona картинка лого</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0d9f75e1-7f40-4074-a390-3961cc7e0b55" extendedConfigurationObject="e5828b52-2cc7-485f-beb9-52f817579af7">
+  <producedTypes>
+    <refType typeId="ddb34ffa-8631-4d05-86d5-791c616ac3b4" valueTypeId="c56d4507-da64-468f-aad5-3462eeede009"/>
+    <listType typeId="bb423804-9c58-4f00-a00e-3ce65ed81375" valueTypeId="02a0be97-0077-454b-9a5a-035cc3e1e1fe"/>
+    <managerType typeId="f0ab38a3-aad5-4454-a1ce-bbc437659192" valueTypeId="18c315ce-a1ac-47a5-9b5d-2beba1aac8a3"/>
+  </producedTypes>
+  <name>ВидыБезналичныхОплат</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="a1cc123a-b0de-4ee0-a4b0-c47e0f744b3f" extendedConfigurationObject="17812d85-2b37-42f6-9f58-8828f0cca40e">
+    <name>ПодарочныйСертификат</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="8be5cf40-40c6-4fb0-8bce-a6df51245969" extendedConfigurationObject="781ef92d-0d09-4fd1-a7ca-ccdf6257d5dc">
+    <name>ВстречноеПредоставление</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="0456e698-8a27-4d7a-a0e5-9fa526d3abef" extendedConfigurationObject="0f0fa208-aefc-4858-8dad-d60ea6e8bddb">
+    <name>БанковскаяКарта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="a7f0b719-0279-47de-bdbf-518a16d70453" extendedConfigurationObject="e8a96f09-60f9-43f3-9d17-051883ac2d53">
+    <name>Бонусы</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="45c55238-76be-428c-9cb2-510ce5b91384" extendedConfigurationObject="14bbcce6-1a97-4f1c-bc41-c04d4fc0ad94">
+    <name>ОплатаВРассрочку</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="f50684e6-9017-4b17-a36e-1aff49bcedda" extendedConfigurationObject="f3e2490e-49bc-42c9-9888-f116e0c69f9b">
+    <name>ВыдачаНаличных</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="0cfc0b5e-dcf1-40f8-80e7-4b60140b28fc" extendedConfigurationObject="bc2145eb-32d1-4a6d-a670-77dc12a310a5">
+    <name>СертификатНСПК</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

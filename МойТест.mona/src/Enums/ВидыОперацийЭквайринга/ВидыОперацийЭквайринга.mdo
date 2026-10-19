@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c4131aa2-dedc-4e72-a45f-7961f46d9f65" extendedConfigurationObject="2a79738e-a3bf-4ea4-aff3-224cf20003f4">
+  <producedTypes>
+    <refType typeId="63aac58c-8456-4503-b9a5-cfcca3d3cf19" valueTypeId="98571489-6390-483a-8146-0bf994ea7e26"/>
+    <listType typeId="1c2e2bb6-c696-463b-8817-782630cce2d3" valueTypeId="a53ec68c-3840-48d3-9dd5-31725e8daecc"/>
+    <managerType typeId="2b6b6795-f5f8-4910-b37f-5285433b2382" valueTypeId="4410abdd-1b14-4257-8c52-13401d261bf8"/>
+  </producedTypes>
+  <name>ВидыОперацийЭквайринга</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

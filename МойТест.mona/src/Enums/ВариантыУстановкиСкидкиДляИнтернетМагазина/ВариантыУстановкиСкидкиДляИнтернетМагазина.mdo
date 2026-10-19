@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9b0c72e3-1f18-4b25-86d0-acaff6c890f3" extendedConfigurationObject="19d3ad52-9ea7-4002-b185-8d193b530d4f">
+  <producedTypes>
+    <refType typeId="2f6c0745-88ae-48f4-bc9d-948b97f32b33" valueTypeId="5eb512ef-be23-4e02-934f-16d6f5dc46d3"/>
+    <listType typeId="ee891ff8-f74c-4027-b9e4-5ca2886be9af" valueTypeId="418822a1-dfed-429e-aa98-2cf01afefe42"/>
+    <managerType typeId="4907d899-f679-4a14-97e0-4cd451bc15ab" valueTypeId="1186a5b4-bdf2-46df-a17a-63d6fdfba1e2"/>
+  </producedTypes>
+  <name>ВариантыУстановкиСкидкиДляИнтернетМагазина</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="6445f346-fa6f-46f3-bacb-41e144fbdcc2" extendedConfigurationObject="f19c8daa-77b2-4031-83a0-ab6db0d91b36">
+    <name>ИзФайлаОбмена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="9a75159f-1968-4ebe-b670-f2343b00440a" extendedConfigurationObject="0e26a072-4d29-4916-b4c0-f66b0a08aa3e">
+    <name>ИзДоговора</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="26630559-a488-44c3-bf3c-7cffa638cae9" extendedConfigurationObject="dea73eaa-86a8-4740-9cfb-e48bf65f95ec">
+  <producedTypes>
+    <selectionType typeId="0367ce87-f7ab-4408-92a5-6957643d0e82" valueTypeId="3cb3ff94-ee85-4e46-90aa-cbc361fbf4b8"/>
+    <listType typeId="4e662de1-5297-4b07-99a1-137659b4260c" valueTypeId="a0e5cc34-a2bc-4e50-aa72-50244e29d1ad"/>
+    <managerType typeId="1ea02814-945e-4176-ae81-19e4240bb29c" valueTypeId="c39d20f5-e2e4-4d9b-95c3-7607b856eb46"/>
+    <recordSetType typeId="8d014f70-1b42-415d-a540-b8a399285ba0" valueTypeId="2334e690-1cc3-43f2-8ddc-8f50fdb47de4"/>
+    <recordKeyType typeId="761d3445-647a-47ce-b0b1-37430e58a971" valueTypeId="2f762380-c317-41ce-bd7e-a740941da05c"/>
+    <recordType typeId="facbc597-3f54-44d8-9ce6-55328c00e1fa" valueTypeId="393785cb-ff12-4437-aef2-14b6ed1a3864"/>
+    <recordManagerType typeId="89492216-10cd-44be-8ef6-44d6674041d5" valueTypeId="996b0919-9dc1-42d8-941e-b6257121cd5b"/>
+  </producedTypes>
+  <name>ФактОплатыЗаказов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="33fa1cc8-cb0a-442d-bf64-660ac5bca956" extendedConfigurationObject="d8f9c5c8-01e4-41ff-8dae-ca3fd15b5eb3">
+    <name>СуммаАванса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="f849ed37-13b4-4ad9-ad5a-6a09c6686d8f" extendedConfigurationObject="39edf61c-0023-4e33-84df-b298ac4f5054">
+    <name>СуммаОплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="1d8591fd-a656-4ac1-934a-468331b55fe4" extendedConfigurationObject="1b4372fa-c3fb-41d5-a62e-35088094147b">
+    <name>Сумма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="c72abea6-9dd9-46d6-a387-404c4edd4ccf" extendedConfigurationObject="0e4c0979-83a2-4057-96a5-ca759e8c09fa">
+    <name>СчетНаОплату</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

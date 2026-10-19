@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c4c582c1-680c-4344-8a16-c12eae6fb348" extendedConfigurationObject="a2b1dc61-98ce-4fe4-ae3d-fabbd7218633">
+  <producedTypes>
+    <objectType typeId="57d00173-d33f-45da-83b3-d2d7a1cebb24" valueTypeId="1aa831ce-e6ee-4b9f-b89d-4179d2ca1cf0"/>
+    <refType typeId="96b55919-0e8d-4266-9bee-6891d128a910" valueTypeId="4e1a5cbd-0ee4-488b-a79f-aa268398c96c"/>
+    <selectionType typeId="3d2a45b2-7066-4441-becf-82da426418f2" valueTypeId="ea342c57-5ed6-4c61-b83b-8217c25f7918"/>
+    <listType typeId="aa8ac74d-debf-4ae2-82a7-c368f758bc92" valueTypeId="5f6798af-9a67-4661-ba4a-b183b6e2cb61"/>
+    <managerType typeId="d156a9e2-37cd-4469-b5e1-14a8a318f393" valueTypeId="6cbff291-d6ed-473d-bc89-3eaab8352b79"/>
+  </producedTypes>
+  <name>СостоянияЗаказовПокупателей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <attributes uuid="97f6b291-486b-4fbd-ab1d-4179b3f085a9" extendedConfigurationObject="9fa899f4-1475-417a-ad49-a70d28114b19">
+    <name>Цвет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>ValueStorage</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

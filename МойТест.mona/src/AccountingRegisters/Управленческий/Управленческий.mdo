@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccountingRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1b731698-9923-47b7-b415-ae1bd8895fcc" extendedConfigurationObject="7cbb9946-2e19-4797-8ed4-d7a0ece334bb">
+  <producedTypes>
+    <selectionType typeId="5230b496-74e4-4e51-9523-ef0f16f42181" valueTypeId="d46622e2-ee02-4b82-8431-2ccead00a61f"/>
+    <listType typeId="12e47416-4684-44de-9b48-1971c38a094e" valueTypeId="1b980b49-4476-4086-a392-efb64d14664e"/>
+    <managerType typeId="78e13a35-662f-4be8-af7e-aba1890aecd6" valueTypeId="502234ee-8831-494a-8e2a-b052544d21b3"/>
+    <recordSetType typeId="fe63884d-a34d-4e77-9839-a97d0c8eb64e" valueTypeId="2d12b8fc-f767-437a-b9bc-ba0ff94a8e79"/>
+    <recordKeyType typeId="1f59e5f3-7c7a-405b-9812-7f520d794714" valueTypeId="b23cb88d-1ac6-439c-91aa-1c96ab8731a1"/>
+    <recordType typeId="a0ef440c-d6ab-410c-8ee4-e1aeb1c7b373" valueTypeId="11a7d9c2-45d2-4af5-833b-d3229b6dc8db"/>
+    <extDimensionsType typeId="ab52a994-67cc-410b-9d88-340b99802a94" valueTypeId="60cd4ddf-3ecb-4171-9e16-52c47ed6160e"/>
+  </producedTypes>
+  <name>Управленческий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccountingRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:AccountingRegister>

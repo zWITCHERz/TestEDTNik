@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="56b17d5e-e356-44ea-acc9-5607bb108eb2">
+  <producedTypes>
+    <objectType typeId="00ff2dd1-fa67-4a51-810a-8b046fb0caa1" valueTypeId="538bf3fc-cf1f-4ac3-9a6b-0271ceeaf901"/>
+    <managerType typeId="c939b866-a004-4982-9dca-6a3c79c4b34a" valueTypeId="de55efe3-9944-4198-8773-31c0d64504db"/>
+  </producedTypes>
+  <name>mona_Возвраты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возвраты за день</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.mona_Возвраты.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="fa110641-710b-4e9a-a40c-37ee7a149d11">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

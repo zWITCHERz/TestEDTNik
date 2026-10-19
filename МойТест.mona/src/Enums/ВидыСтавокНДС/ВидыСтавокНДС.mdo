@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="26137743-90b8-46a6-a585-0231cd2eb859" extendedConfigurationObject="db6b7850-6f6d-42fe-9240-139b8a5ae8b3">
+  <producedTypes>
+    <refType typeId="eb83f7dd-8d0d-4922-af1f-4a041aaf512b" valueTypeId="b3e22aaa-5bfa-4618-b6fc-75a68de59a5d"/>
+    <listType typeId="37bae8a0-5d78-43a9-93c1-4afa6b6f5102" valueTypeId="aff564a9-f310-4838-8adf-3587a0cbc8b4"/>
+    <managerType typeId="1a3c09b9-7604-49ca-8631-9c45d28ced9a" valueTypeId="6645a0c0-f89d-4350-9aea-3e74a138c1ff"/>
+  </producedTypes>
+  <name>ВидыСтавокНДС</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="af21d854-97fa-4bac-92a8-a2a7db74074b" extendedConfigurationObject="f8803692-c520-4f12-8cbc-effcbea0ddf3">
+    <name>БезНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

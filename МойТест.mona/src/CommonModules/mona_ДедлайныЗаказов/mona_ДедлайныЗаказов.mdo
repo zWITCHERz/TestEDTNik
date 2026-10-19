@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ad04fd4-7af3-4ad9-8670-b77d6e7e04ae">
+  <name>mona_ДедлайныЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mona дедлайны заказов</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

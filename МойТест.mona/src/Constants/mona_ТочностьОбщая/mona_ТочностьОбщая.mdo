@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98c9548f-364d-4591-bad8-a15d1b0c8bde">
+  <producedTypes>
+    <managerType typeId="e7b0e53c-447c-4332-a6da-a9273800b83c" valueTypeId="ccf17d89-682c-425e-9fa1-e620a372c199"/>
+    <valueManagerType typeId="bf11b55f-37a3-428e-b634-146875115676" valueTypeId="8ccd30f0-539e-4d95-82cb-7a5b9d822641"/>
+    <valueKeyType typeId="fe741bed-262f-40a4-95e4-8f9f17c6145f" valueTypeId="f14aa25e-6152-4a56-a1fc-89368ec05ed3"/>
+  </producedTypes>
+  <name>mona_ТочностьОбщая</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точность общая</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

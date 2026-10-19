@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a5e9a59e-63c1-461a-96c1-f28ffcc34509" extendedConfigurationObject="789e41a0-7388-441a-a0ed-de329b8862fe">
+  <producedTypes>
+    <objectType typeId="d29d9522-7da4-4948-a623-12858a2be1f1" valueTypeId="1c1a6efb-5cef-47fa-9055-7ece2c036062"/>
+    <refType typeId="b6cd1458-c710-49f9-90ad-6caa6be7c9d4" valueTypeId="138c5b73-7f71-41af-84d2-2e274da720dc"/>
+    <selectionType typeId="49212d00-9fe4-49fa-aeda-758dc3391d60" valueTypeId="5b40cbe8-0fcb-424a-b7bf-822637591e8e"/>
+    <listType typeId="7f9e3f87-bde5-4035-9ec8-e96cf0c9cd58" valueTypeId="176beb94-13c9-46f1-bde1-e0631346dceb"/>
+    <managerType typeId="da774f74-8ff2-4538-b818-7f801beeae6c" valueTypeId="592f8199-56ac-4779-b356-83cb35e3e15a"/>
+  </producedTypes>
+  <name>Подписи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

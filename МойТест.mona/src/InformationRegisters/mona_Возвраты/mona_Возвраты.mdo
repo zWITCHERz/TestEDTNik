@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e30cb97e-d7f4-4125-a5a2-2d89a93d909e">
+  <producedTypes>
+    <selectionType typeId="6da528ef-bcb2-413f-95d1-d93f6997f03d" valueTypeId="3998e7fa-4aae-4656-80e5-dabc23b663f3"/>
+    <listType typeId="cc4e13f0-89ef-4920-9e65-ead08701f7a1" valueTypeId="275222ee-44d8-4f00-a66a-cdab4d672e92"/>
+    <managerType typeId="0e293431-e8d1-48f7-ac65-d770e1bd58e6" valueTypeId="89197e71-941b-4d78-a328-ab07f61772ff"/>
+    <recordSetType typeId="6125babc-4cae-48d3-97a2-01e7334918d6" valueTypeId="ebf43df1-306b-40a2-8a3b-cb02f38e203e"/>
+    <recordKeyType typeId="b8a26561-90d0-4c08-81fe-cc129f1ef954" valueTypeId="15a0f17c-e4c7-4800-91d3-a984b65cf628"/>
+    <recordType typeId="0cf51114-de9e-4e9c-bde9-a62f26209884" valueTypeId="477b283f-9466-4004-b8e1-8bb9b08a25b3"/>
+    <recordManagerType typeId="797f85fc-18bd-481d-96de-d274417cdcf9" valueTypeId="5cb688ba-1731-4eeb-917c-20630ef1cdb0"/>
+  </producedTypes>
+  <name>mona_Возвраты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возвраты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="d753eee3-3e3a-4808-8a1d-d109309dd047">
+    <name>tiptoppay_return_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>TipTop ID возврата </value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="8dd5bfc8-2e54-44b3-a002-50e271ba3950">
+    <name>ПризнакОтложенногоВозврата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Признак отложенного возврата</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b4986b0c-d221-4a07-8225-6a556690a4b2">
+    <name>СоставВозвратаJSON</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав возврата JSON</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0a407af7-b67d-451e-b354-444bf0c5e4a4">
+    <name>ТипВозврата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип возврата</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="968451f1-eb51-4f72-8e24-de653a0984ef">
+    <name>ПричинаВозврата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Причина возврата</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.mona_ПричиныВозврата</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="51dce279-30d8-444e-ae5f-632bee48c2ab">
+    <name>tiptoppay_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>TipTop ID возврата </value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="262e2cef-4410-421f-8dae-00be0dde2a7e">
+    <name>IdempotencyKey</name>
+    <synonym>
+      <key>ru</key>
+      <value>Idempotency key</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="9a50aba8-aa93-42db-85a6-9d0e75a2b857">
+    <name>СуммаВозврата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма возврата</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d52e4969-ab6f-4da4-9955-09aee6db7607">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

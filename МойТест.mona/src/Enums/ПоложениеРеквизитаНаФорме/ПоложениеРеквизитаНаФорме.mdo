@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="312b305c-167d-441d-b293-07ba2110e75f" extendedConfigurationObject="b6ba242e-c1a1-4649-9b26-628f879af50f">
+  <producedTypes>
+    <refType typeId="b9527ead-e1b3-491f-a1de-667d1ddb2549" valueTypeId="db8bc7bb-13b2-4fdc-9d72-b32249512240"/>
+    <listType typeId="f468021e-4a43-4089-ae59-758ca64238ed" valueTypeId="87299578-a48c-46d5-9585-dd5905b59253"/>
+    <managerType typeId="1cebb595-1088-4d8b-a18e-7d6318551ee8" valueTypeId="b2eff66a-7da1-4d69-9591-a8150e28becd"/>
+  </producedTypes>
+  <name>ПоложениеРеквизитаНаФорме</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="67bd5552-1f0e-4ed8-ade8-46b852d76093" extendedConfigurationObject="ce7ab997-f0e7-4ed7-9bcc-f1687660070a">
+    <name>ВШапке</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

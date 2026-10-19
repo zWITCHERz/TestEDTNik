@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="33d76502-b243-41eb-bcd4-f1f2d646fdae" extendedConfigurationObject="7e46ff2d-480e-4be6-bdca-f780bb4123f0">
+  <producedTypes>
+    <objectType typeId="543a12e5-7891-4941-b3e6-0e5977d65792" valueTypeId="a6a4b9d6-34e9-4947-8e00-ab70011cc0df"/>
+    <refType typeId="3e4a9bc8-1b05-4ff5-9e3f-83ae590f314d" valueTypeId="60fe6f95-8f5f-4f91-940a-7931ae774f54"/>
+    <selectionType typeId="eeebbc56-1a98-4421-94a0-96ee94e25d8e" valueTypeId="982f3385-fb12-4f7f-8b54-8136b7b2e0bb"/>
+    <listType typeId="b8f7cfce-1510-4f02-b7a9-e7d396a94f67" valueTypeId="4264c901-19d4-4271-972a-6e4535ab5784"/>
+    <managerType typeId="bc5a89ae-4718-4281-be39-ef2303298ed0" valueTypeId="d60eb7c2-2983-4ba8-be7d-53d6a1c76b31"/>
+  </producedTypes>
+  <name>СлужбыДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <codeLength>Checked</codeLength>
+    <codeAllowedLength>Checked</codeAllowedLength>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
+  </extension>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <attributes uuid="ddc72565-ee3d-41fe-a0ac-f664212ff496">
+    <name>mona_URL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mona URL</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="397b7662-70ab-4bdd-a217-612e2c0818b2">
+    <name>mona_Token</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mona token</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="152b72c3-c004-45b7-bf3c-45cd8f7d23c9">
+    <name>mona_client_secret</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mona client secret</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c562c734-433b-411e-b4f1-f6f8e18fa589">
+    <name>mona_Активно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mona активно</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ace45e96-a297-45a9-8789-6c5495d5fcf4">
+    <name>mona_Рабочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mona рабочий</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="979ea319-af8f-410d-8d4a-4712bd729674">
+    <name>mona_Тип_интеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mona тип интеграции</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <synonym>Extended</synonym>
+    </extension>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9785c1a0-a315-491e-826f-dd1e3d3846e4" extendedConfigurationObject="e1e6792d-b91e-432a-963a-b70b41534b20">
+    <name>ВозможенЗаборНаЕдиныйСклад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="aead64cc-ffb3-48bb-ad9e-76e043e180e5" extendedConfigurationObject="a0ce3c10-fa06-4da5-9e9c-100818206667">
+    <name>ВозможенЗаборНаСкладСлужбыДоставки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="e29fa925-28dd-46ad-8017-a832942a08d5" extendedConfigurationObject="4dfcd574-c240-4a05-9bd6-c44ebf25ca8e">
+    <name>ИдентификаторЯндекса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="aaa030c8-22a4-4378-9063-c8eb3f03be54" extendedConfigurationObject="80d61626-8356-4ec1-98d4-a85288111174">
+    <name>ВариантУчета</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ВариантыУчетаДоставки</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="70c1e058-1b47-40a7-a74b-85ee3975a65f" extendedConfigurationObject="3c809a77-ec6d-41f0-815a-f09264f01ee8">
+    <name>ВозможенСамопривозНаЕдиныйСклад</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="5fc6ab5d-fd21-4948-ae6d-c358ba8545df" extendedConfigurationObject="25e00069-2d5d-4f57-b3a7-250595fa49d9">
+    <name>ВозможенСамопривозНаСкладСлужбыДоставки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="6f1157bd-4533-4949-9e32-9ef05473e580" extendedConfigurationObject="8ea35bbd-7c06-402f-b8dd-43386393eff8">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

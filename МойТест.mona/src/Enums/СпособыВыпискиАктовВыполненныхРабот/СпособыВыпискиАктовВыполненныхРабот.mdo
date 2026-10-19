@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="742d2541-b731-4371-aa52-2013f9382158" extendedConfigurationObject="df219f92-e200-4573-9f36-1de3762d6cb2">
+  <producedTypes>
+    <refType typeId="52099a89-a5be-4053-992f-76d996a23fc0" valueTypeId="64bd4740-bdbf-4833-95f7-cb95c3f2e67d"/>
+    <listType typeId="d8c1c57c-b16b-4863-bc2d-331fc6ec31e3" valueTypeId="861879bd-01ff-456f-8659-59e70c2379fe"/>
+    <managerType typeId="55907da2-e368-4d74-bbb5-0ce9ecb2a310" valueTypeId="c36b2d3b-ac02-4a36-926d-7abcee194595"/>
+  </producedTypes>
+  <name>СпособыВыпискиАктовВыполненныхРабот</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

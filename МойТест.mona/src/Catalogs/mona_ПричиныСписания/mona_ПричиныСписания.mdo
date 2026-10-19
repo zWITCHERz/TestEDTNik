@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="821155b7-ce1c-40c2-a9ff-733f58b9a3a2">
+  <producedTypes>
+    <objectType typeId="255c5fb8-c44f-4c9c-9a97-f18300c9d934" valueTypeId="121d3e3b-3251-4a1b-bc3f-32b3e4c18bac"/>
+    <refType typeId="2c6b4197-73d4-4c45-a332-2b6fb2c96f99" valueTypeId="f3e38b91-a673-43b8-a5ef-d884d68436ac"/>
+    <selectionType typeId="f433fc54-d857-4d04-af86-468dd3d2948f" valueTypeId="9b36a4e0-47a7-487f-b8f7-1c0d6df2247c"/>
+    <listType typeId="eb7998a9-1474-4328-bed9-a7ce81121461" valueTypeId="f8a2a41d-b5cb-4bed-907c-f59ecdf7bcd6"/>
+    <managerType typeId="0319e68d-7298-49ff-bba5-9e5ad222efdb" valueTypeId="62289f20-ff73-4f72-8813-1fd246b7b8c5"/>
+  </producedTypes>
+  <name>mona_ПричиныСписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины списания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.mona_ПричиныСписания.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.mona_ПричиныСписания.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>30</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.mona_ПричиныСписания.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="e0795052-5000-4adc-90cd-fa091614ca4c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2e8dfefc-4d4c-4b07-bd4d-4b798de4b8a3">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

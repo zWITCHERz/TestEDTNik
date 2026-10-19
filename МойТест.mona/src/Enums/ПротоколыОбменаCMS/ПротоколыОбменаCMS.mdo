@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9d9005b6-2b33-46c2-8a92-8e66b677b3dc" extendedConfigurationObject="cfc3f33a-6da7-45c2-8907-5abe1679aec0">
+  <producedTypes>
+    <refType typeId="d677a8ef-c4ec-4013-ac34-3f11569640ab" valueTypeId="97f743be-007c-4349-a650-6c34314eb314"/>
+    <listType typeId="bb2a77f7-cb0f-4763-afda-e9c7abfb1712" valueTypeId="55350717-8385-41f1-ae7b-7aa6488e9a39"/>
+    <managerType typeId="c6282ce5-97b8-41f6-8d81-e71cd8498a92" valueTypeId="a1fcf223-0cbe-4da3-96b7-e38fa0b539d6"/>
+  </producedTypes>
+  <name>ПротоколыОбменаCMS</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="27201b7e-07f7-4a12-ac78-8015d0a1d5bf" extendedConfigurationObject="634fd5cb-10fe-471c-9bbc-e81c6a9319ef">
+    <name>Другая</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="a6105433-1692-4e81-8cbb-7617513cf07b">
+    <name>mona</name>
+    <synonym>
+      <key>ru</key>
+      <value>Mona</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <synonym>Extended</synonym>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

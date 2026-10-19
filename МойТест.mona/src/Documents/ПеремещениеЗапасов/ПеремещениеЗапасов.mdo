@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8c6b43dc-b9f6-4bca-873c-3de0b7c55cb1" extendedConfigurationObject="c63e7296-8bd5-4572-b1ca-d62e9d4681b3">
+  <producedTypes>
+    <objectType typeId="576841aa-f793-48b2-8999-e8c9f20ed87a" valueTypeId="d9d3e6ed-103b-4359-8770-60cf8a336b4d"/>
+    <refType typeId="4b013ddc-ac98-42ab-bd18-c23a775920ca" valueTypeId="c60d9a65-0351-4297-8e7e-a8ca8c3f2cca"/>
+    <selectionType typeId="a4090973-7a85-4be3-9528-d92b816ec206" valueTypeId="4172a88f-1545-43ac-955c-7a2879d0d7cc"/>
+    <listType typeId="b27a47df-ace0-453c-8532-faea7436583f" valueTypeId="f9c217fb-4bc1-4fde-b055-0417fa4443f9"/>
+    <managerType typeId="3d6b4b3e-d8f5-46e8-93c5-e7683aed2b2b" valueTypeId="1ef82fc7-783d-4cad-91ed-a02c9057ec90"/>
+  </producedTypes>
+  <name>ПеремещениеЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

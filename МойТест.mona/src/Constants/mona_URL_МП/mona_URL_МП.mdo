@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8259db83-8fbd-410a-affa-baedd0dbef65">
+  <producedTypes>
+    <managerType typeId="87a7619f-73a2-4fca-a3f9-7fd18425d582" valueTypeId="6cdf7a90-32e8-4c8c-894c-6bdf7135a1cd"/>
+    <valueManagerType typeId="99cb3b3a-1b43-4ff5-b1f4-c06830984d6f" valueTypeId="2b5f5e2a-9ca4-4c41-acd2-a55605c69e9f"/>
+    <valueKeyType typeId="423fc1d9-b2b2-4857-9061-91e8936cb2a8" valueTypeId="27bcd578-b610-48cd-95d5-e840b8d3ba8b"/>
+  </producedTypes>
+  <name>mona_URL_МП</name>
+  <synonym>
+    <key>ru</key>
+    <value>URL МП</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>200</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

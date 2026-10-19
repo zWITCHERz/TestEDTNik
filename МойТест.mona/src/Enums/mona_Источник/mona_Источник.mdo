@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33924e27-12d6-4ed8-9201-12b38b17aa4a">
+  <producedTypes>
+    <refType typeId="de2f514f-5553-421a-930f-9e24d31ff0f8" valueTypeId="8e43187e-3257-4de6-9826-c68e9b9a3fac"/>
+    <listType typeId="5a1776f0-9b45-4ee7-ba2e-f65956b441ff" valueTypeId="92527210-9b50-48e5-abe3-954f67caa687"/>
+    <managerType typeId="62f9c050-6344-4a9c-a022-c6055cd27ef1" valueTypeId="a4a9f16f-ede1-459c-8b56-c8a5b765f028"/>
+  </producedTypes>
+  <name>mona_Источник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Mona источник</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ced98ad2-77f7-4d11-8a79-3b0728bafab3">
+    <name>МобильноеПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильное приложение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5413e9b7-084a-4cbc-80c2-7be80c40e49b">
+    <name>ЯндексДоставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Яндекс доставка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="405abe82-d85e-40ce-b373-5eeb935e563c">
+    <name>Бухгалтерия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d72a5c2-9d26-4acf-a344-26234bf50e3d">
+    <name>Webkassa</name>
+    <synonym>
+      <key>ru</key>
+      <value>Webkassa</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7777c2b-9aa6-4536-9ba9-538d4133253a">
+    <name>Оператор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оператор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3781e8cd-cb5d-48c7-ade1-96cd1a1f6d14">
+    <name>Система</name>
+    <synonym>
+      <key>ru</key>
+      <value>Система</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
